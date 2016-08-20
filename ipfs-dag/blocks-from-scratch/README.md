@@ -1,4 +1,4 @@
-# Creating a Merkle Tree from Scratch
+# Tutorial: Creating a Merkle Tree from Scratch
 
 *Work in Progress* _This is the content from [this existing tutorial](https://ipfs.io/ipfs/QmTkzDwWqPbnAh5YiV5VwcTLnGdwSNsNTn2aDxdXBFca7D/example#/ipfs/QmQwAP9vFjbCtKvD8RkJdCvPHqLQjZfW7Mqbbqx18zd8j7/data/readme.md) vaguely re-framed to fit the tutorial framework._
 

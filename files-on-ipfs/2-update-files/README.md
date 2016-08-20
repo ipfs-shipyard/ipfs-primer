@@ -1,4 +1,4 @@
-# Update Files on IPFS using IPNS
+# Tutorial: Update Files on IPFS using IPNS
 
 ## Goals (Learning Objectives)
 After doing this tutorial you will be able to  

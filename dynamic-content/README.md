@@ -1,4 +1,4 @@
-# Dynamic Content on IPFS
+# Topic: Dynamic Content on IPFS
 
 ## Concepts
 These tutorials introduce the following concepts:

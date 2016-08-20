@@ -1,4 +1,4 @@
-# Merkle Trees and the IPFS DAG
+# Topic: Merkle Trees and the IPFS DAG
 
 ## Concepts
 These tutorials introduce the following concepts:

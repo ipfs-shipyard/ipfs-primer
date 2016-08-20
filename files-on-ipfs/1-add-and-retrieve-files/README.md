@@ -1,4 +1,4 @@
-# Adding a file into IPFS
+# Tutorial: Adding Files to IPFS and Retreiving Them
 
 ## Goals (Learning Objectives)
 After doing this tutorial you will be able to    

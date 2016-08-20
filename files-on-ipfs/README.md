@@ -1,4 +1,4 @@
-# Files on IPFS
+# Topic: Files on IPFS
 
 ## Concepts
 These tutorials introduce the following concepts:
@@ -14,6 +14,6 @@ These tutorials are tested with go-ipfs version 0.4.3-rc1. _Please update this f
 
 ## Tutorials
 
-1. [Adding Files to IPFS and Retreiving Them](/files-on-ipfs/1-add-and-retrieve-files/README.md)
-1. [Updating Files on IPFS using IPNS](/files-on-ipfs/2-update-files/README.md)
-1. [Making Sure Files Persist in IPFS](/files-on-ipfs/3-pin-files/README.md)
+1. [Tutorial: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/1-add-and-retrieve-files/README.md)
+1. [Tutorial: Updating Files on IPFS using IPNS](/files-on-ipfs/2-update-files/README.md)
+1. [Tutorial: Making Sure Files Persist in IPFS](/files-on-ipfs/3-pin-files/README.md)

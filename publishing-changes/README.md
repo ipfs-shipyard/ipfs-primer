@@ -1,10 +1,19 @@
-# Lesson: Update Files on IPFS using IPNS
+# Tutorial: Making Changes on the Permanent Web
 
-## Goals (Learning Objectives)
-After doing this Lesson you will be able to  
-* Point to a file in IPFS using IPNS and update that IPNS pointer over time as the file changes
+These Lessons are tested with go-ipfs version 0.4.3-rc1. _Please update this file on github to reflect any other versions that have been tested._
+
+## Prerequisites
+
+## Learning Objectives
+After doing this Lesson you will be able to
+* Update Files on IPFS using IPNS
+* Explain how version histories of files appear on IPFS
+* Explain why IPFS is called the Permanent Web
 * Track an entire website using IPFS and IPNS as it changes over time
-* Map DNS to IPNS
+
+## Key Concepts
+* IPNS
+* The Permanent Web
 
 ## Conceptual Framework
 
@@ -17,20 +26,14 @@ This is where IPNS comes in, the InterPlanetary Naming System (Name Service?). I
 
 **Author Question**: Does IPNS point to a constant hash that is in your config, or does it just use your peerId? Does your IPNS hash ever change?
 
-## Steps
+## Lessons
 
-_Here's where you list links to the activities in this module._
-
-1. If you have not already done it, follow the Lesson to **[Add a file to IPFS](/files-on-ipfs/add-files)**
+1. If you have not already done it, follow the Lesson to **[Add a file to IPFS](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)**
 2. Set up IPNS on your node
 3. Create an IPNS entry that points to your file
 4. Modify your File and add the modified version to IPFS
 5. Update the IPNS entry to point to the new version
-
-(maybe put in another Lesson)
-6. Map DNS to IPNS
-
-(maybe put in another Lesson)
+Advanced:
 7. add multiple files (ie. an entire website) to IPFS
 8. Use IPNS to link to the entire website, or any file in the website
 

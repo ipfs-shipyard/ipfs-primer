@@ -8,12 +8,16 @@ These Lessons are tested with go-ipfs version 0.4.3-rc1. _Please update this fil
 
 ## Learning Objectives
 These Lessons will teach you how to
-* Share files using IPFS
-* Pin files on the IPFS Network
-* Publish Changes to Files on IPFS
+* Add files to your local IPFS node
+* Read files out of your local IPFS node
+* List the files in your IPFS node
+* Tell IPFS to hold onto files by _pinning_ them
 
 ## Key Concepts
-TODO
+* Distinction between IPFS and your regular Filesystem
+* Identifying files by their Hashes
+* IPFS Garbage Collection
+* Pinning files on an IPFS Node
 
 ## Conceptual Framework
 TODO
@@ -21,5 +25,12 @@ TODO
 ## Lessons
 
 1. [Lesson: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
-1. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/lessons/2-update-files.md)
-1. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/lessons/3-pin-files.md)
+1. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/3-pin-files.md)
+
+## Next Steps
+
+Once you know how to add files to IPFS and retrieve them, you will be ready to share those files on the P2P network following the [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
+
+If you're wondering how to update those files after you've shared them, see the [Tutorial: Publishing Changes on the Permanent Web](/publishing-changes/README.md)
+
+If you want to see how to access those files from the conventional HTTP web, go to the [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)

@@ -9,11 +9,12 @@ After doing this Lesson you will be able to
 * Update Files on IPFS using IPNS
 * Explain how version histories of files appear on IPFS
 * Explain why IPFS is called the Permanent Web
-* Track an entire website using IPFS and IPNS as it changes over time
+* Track and Publish an entire website as it changes over time using IPFS and IPNS
 
 ## Key Concepts
 * IPNS
 * The Permanent Web
+* Using Hashes to uniquely identify versions of content
 
 ## Conceptual Framework
 

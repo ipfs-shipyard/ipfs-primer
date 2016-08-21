@@ -11,6 +11,7 @@
 * [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
   1. Lesson: Publish your node on the IPFS network
   2. Lesson: Find Peers on the Network
+  3. Lession: Retrieve content from a Peer
 * [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
   1. Lesson: Use an HTTP browser to retrieve files from local IPFS node
   2. Lesson: Get your own files through the ipfs.io gateway

@@ -23,3 +23,13 @@ The primer contains Tutorials about
 * CRDTs
 * Pubsub
 * Authenticated Streams (with pubsub)
+
+## Format
+
+The primer is a collection of tutorials, or lessons, that all use a format inspired by the [Railsbridge Curriculum](http://curriculum.railsbridge.org/intro-to-rails/). Each tutorial declares a set of *Goals*, or [learning objectives](http://edglossary.org/learning-objectives/), then lists the *Steps*, or activities, and finally provides an *Explanation* that reviews what you've done and connects those activities to the tutorial's stated Goals. The format for each tutorial looks like this:
+
+![Sample of Railsbridge tutorial format](/images/railsbridge-format.png)
+
+## Note for Contributors
+
+For a concise explanation of Learning Objectives (which we're calling _Goals_ in this book), read UC Denver's [Assessment & Instructional Alignment Tutorial](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/Tutorials/Assessment/module3/index.htm). Try to make your learning objectives [Specific, observable and measurable](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/Tutorials/Assessment/module3/good_objectives.htm) and heed their tip to use the list of verbs in the [taxonomy table worksheet](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/Tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) to help you choose observable behaviors for your course learning objectives.

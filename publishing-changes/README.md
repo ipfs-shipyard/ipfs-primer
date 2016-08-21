@@ -14,7 +14,7 @@ After doing this Lesson you will be able to
 ## Key Concepts
 * IPNS
 * The Permanent Web
-* Using Hashes to uniquely identify versions of content
+* Using hashes to uniquely identify versions of content
 
 ## Conceptual Framework
 

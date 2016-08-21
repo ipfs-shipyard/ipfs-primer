@@ -4,6 +4,8 @@ This primer contains a series of Tutorials explaining IPFS, Merkle Trees and the
 
 When this is finished, this primer will be a complete replacement for the examples at https://ipfs.io/docs/examples/
 
+The github repository for this book is at https://github.com/flyingzumwalt/decentralized-web-primer
+
 ## Tutorials
 
 The primer contains Tutorials about
@@ -31,7 +33,5 @@ Each tutorial is a set of *lessons* that all use a format inspired by the [Rails
 ![Sample of Railsbridge Lesson format](/images/railsbridge-format.png)
 
 ## Note for Contributors
-
-The github repository for this book is at https://github.com/flyingzumwalt/decentralized-web-primer
 
 For a concise explanation of Learning Objectives (which we're calling _Goals_ in this book), read UC Denver's [Assessment & Instructional Alignment Tutorial](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/index.htm). Try to make your learning objectives [Specific, observable and measurable](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/good_objectives.htm) and heed their tip to use the list of verbs in the [taxonomy table worksheet](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) to help you choose observable behaviors for your course learning objectives.

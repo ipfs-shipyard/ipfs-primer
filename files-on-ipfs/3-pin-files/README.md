@@ -1,7 +1,7 @@
-# Tutorial: Making sure that a file persists in the IPFS network
+# Lesson: Making sure that a file persists in the IPFS network
 
 ## Goals (Learning Objectives)
-After doing this tutorial you will be able to  
+After doing this Lesson you will be able to  
 * _todo_
 
 ## Steps

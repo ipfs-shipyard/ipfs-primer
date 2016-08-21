@@ -1,7 +1,7 @@
-# Topic: Merkle Trees and the IPFS DAG
+# Tutorial: Merkle Trees and the IPFS DAG
 
 ## Concepts
-These tutorials introduce the following concepts:
+These Lessons introduce the following concepts:
 * Cryptographic Hashes and Content Addressability
 * Authenticated Graphs
 * Turning Files into Trees
@@ -11,8 +11,8 @@ These tutorials introduce the following concepts:
 
 ## Prerequisites
 
-## Tutorials
-1. Tutorial: Create a cryptographic hash
-2. [Tutorial: Build a tree of data (a Merkle DAG) in IPFS using cryptographic hashes to link the pieces ](/ipfs-dag/blocks-from-scratch/README.md)
-3. [Tutorial: Turn a file into a tree of hashes](/ipfs-dag/files-as-dags/README.md)
-4. Tutorial: Explore the types of software that use hash trees to track data
+## Lessons
+1. Lesson: Create a cryptographic hash
+2. [Lesson: Build a tree of data (a Merkle DAG) in IPFS using cryptographic hashes to link the pieces ](/ipfs-dag/blocks-from-scratch/README.md)
+3. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/files-as-dags/README.md)
+4. Lesson: Explore the types of software that use hash trees to track data

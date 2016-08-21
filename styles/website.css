@@ -3,3 +3,6 @@
     color: white;
     border: 2px solid lightgray;
 }
+.markdown-section h1, .markdown-section h2, .markdown-section h3 {
+  font-weight: 200;
+}

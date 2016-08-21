@@ -1,6 +1,6 @@
-# Tutorial: Creating a Merkle Tree from Scratch
+# Lesson: Creating a Merkle Tree from Scratch
 
-*Work in Progress* _This is the content from [this existing tutorial](https://ipfs.io/ipfs/QmTkzDwWqPbnAh5YiV5VwcTLnGdwSNsNTn2aDxdXBFca7D/example#/ipfs/QmQwAP9vFjbCtKvD8RkJdCvPHqLQjZfW7Mqbbqx18zd8j7/data/readme.md) vaguely re-framed to fit the tutorial framework._
+*Work in Progress* _This is the content from [this existing Lesson](https://ipfs.io/ipfs/QmTkzDwWqPbnAh5YiV5VwcTLnGdwSNsNTn2aDxdXBFca7D/example#/ipfs/QmQwAP9vFjbCtKvD8RkJdCvPHqLQjZfW7Mqbbqx18zd8j7/data/readme.md) vaguely re-framed to fit the Lesson framework._
 
 ## Goals
 * Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)

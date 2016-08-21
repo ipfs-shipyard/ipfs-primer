@@ -1,7 +1,7 @@
-# Tutorial: Update Files on IPFS using IPNS
+# Lesson: Update Files on IPFS using IPNS
 
 ## Goals (Learning Objectives)
-After doing this tutorial you will be able to  
+After doing this Lesson you will be able to  
 * Point to a file in IPFS using IPNS and update that IPNS pointer over time as the file changes
 * Track an entire website using IPFS and IPNS as it changes over time
 * Map DNS to IPNS
@@ -21,16 +21,16 @@ This is where IPNS comes in, the InterPlanetary Naming System (Name Service?). I
 
 _Here's where you list links to the activities in this module._
 
-1. If you have not already done it, follow the tutorial to **[Add a file to IPFS](/files-on-ipfs/add-files)**
+1. If you have not already done it, follow the Lesson to **[Add a file to IPFS](/files-on-ipfs/add-files)**
 2. Set up IPNS on your node
 3. Create an IPNS entry that points to your file
 4. Modify your File and add the modified version to IPFS
 5. Update the IPNS entry to point to the new version
 
-(maybe put in another tutorial)
+(maybe put in another Lesson)
 6. Map DNS to IPNS
 
-(maybe put in another tutorial)
+(maybe put in another Lesson)
 7. add multiple files (ie. an entire website) to IPFS
 8. Use IPNS to link to the entire website, or any file in the website
 

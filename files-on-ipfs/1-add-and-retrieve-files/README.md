@@ -1,7 +1,7 @@
-# Tutorial: Adding Files to IPFS and Retreiving Them
+# Lesson: Adding Files to IPFS and Retreiving Them
 
 ## Goals (Learning Objectives)
-After doing this tutorial you will be able to    
+After doing this Lesson you will be able to    
 * Add a file to IPFS
 * Read a file out of IPFS
 
@@ -31,7 +31,7 @@ qmwk51jygpchgwr3srdnmhyerheqd22qw3vvyamb3emhuw 5244129
 ```
 
 What this is showing is all of the immediate sub-blocks of your file, and the
-size of them and their children on disk. If you want to know more about how these blocks and sub-blocks work, explore the [tutorials about the IPFS DAG](/ipfs-dag)
+size of them and their children on disk. If you want to know more about how these blocks and sub-blocks work, explore the [Tutorial about the IPFS DAG](/ipfs-dag)
 
 ### Step 2: Read the File
 

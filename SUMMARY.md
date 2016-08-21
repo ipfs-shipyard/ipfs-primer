@@ -1,7 +1,7 @@
 # Summary
 
 * [Files on IPFS](files-on-ipfs/README.md)
-  1. [Tutorial: Adding Files to IPFS](/files-on-ipfs/1-add-and-retrieve-files/README.md)
+  1. [Tutorial: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/1-add-and-retrieve-files/README.md)
   2. [Tutorial: Updating Files on IPFS using IPNS](/files-on-ipfs/2-update-files/README.md)
   3. [Tutorial: Making Sure Files Persist in IPFS](/files-on-ipfs/3-pin-files/README.md)
 * [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)

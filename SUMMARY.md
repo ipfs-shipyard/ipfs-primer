@@ -7,11 +7,11 @@
   1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
   3. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/3-pin-files.md)
   5. Lesson: Mount IPFS as a Local Filesystem
-  4. Lesson: Streaming Video over IPFS
 * [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
   1. Lesson: Publish your node on the IPFS network
   2. Lesson: Find Peers on the Network
   3. Lession: Retrieve content from a Peer
+  4. Lesson: Streaming Video over IPFS
 * [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
   1. Lesson: Use an HTTP browser to retrieve files from local IPFS node
   2. Lesson: Get your own files through the ipfs.io gateway

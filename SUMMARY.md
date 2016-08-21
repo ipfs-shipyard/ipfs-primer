@@ -1,13 +1,13 @@
 # Summary
 
 * [Tutorial: Files on IPFS](files-on-ipfs/README.md)
-  1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/1-add-and-retrieve-files/README.md)
-  2. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/2-update-files/README.md)
-  3. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/3-pin-files/README.md)
+  1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
+  2. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/lessons/2-update-files.md)
+  3. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/lessons/3-pin-files.md)
 * [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
   1. Lesson: Create a cryptographic hash
-  2. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/blocks-from-scratch/README.md)
-  3. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/files-as-dags/README.md)
+  2. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
+  3. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)
   4. Lesson: Explore the types of software that use hash trees to track data
 * [Tutorial: Dynamic Content on IPFS](/dynamic-content/README.md)
   1. Disclaimer: Dynamic content on IPFS is a Work in Progress

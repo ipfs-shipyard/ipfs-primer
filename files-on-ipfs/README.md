@@ -20,6 +20,6 @@ TODO
 
 ## Lessons
 
-1. [Lesson: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/1-add-and-retrieve-files/README.md)
-1. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/2-update-files/README.md)
-1. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/3-pin-files/README.md)
+1. [Lesson: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
+1. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/lessons/2-update-files.md)
+1. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/lessons/3-pin-files.md)

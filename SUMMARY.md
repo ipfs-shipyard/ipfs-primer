@@ -1,9 +1,20 @@
 # Summary
 
+* Tutorial: Install IPFS
+  1. Lesson: Download and Install IPFS
+  2. Lesson: Initialize your IPFS Node
 * [Tutorial: Files on IPFS](files-on-ipfs/README.md)
   1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
   2. [Lesson: Updating Files on IPFS using IPNS](/files-on-ipfs/lessons/2-update-files.md)
   3. [Lesson: Making Sure Files Persist in IPFS](/files-on-ipfs/lessons/3-pin-files.md)
+  5. Lesson: Mount IPFS as a Local Filesystem
+  4. Lesson: Streaming Video over IPFS
+* Tutorial: Going Online - Joining the Distributed Web
+  1. Lesson: Publish your node on the IPFS network
+  2. Lesson: Find Peers on the Network
+* Tutorial: Interacting with the Classical (HTTP) Web
+  1. Lesson: Use an HTTP browser to retrieve files from local IPFS node
+  2. Lesson: Get your own files through the ipfs.io gateway
 * [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
   1. Lesson: Create a cryptographic hash
   2. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)

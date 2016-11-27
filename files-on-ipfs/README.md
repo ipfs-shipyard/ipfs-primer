@@ -3,8 +3,8 @@ These Lessons are tested with go-ipfs version 0.4.3-rc1. _Please update this fil
 
 ## Prerequisites
 
-- You should have some familiarity with the commandline.
-- You should have `ipfs` installed: this Lesson will use go-ipfs, version 0.4.3-rc1.
+- You should have some familiarity with the command line.
+- You should have `ipfs` installed - the [previous tutorial](../install-ipfs) has instructions for that
 
 ## Learning Objectives
 These Lessons will teach you how to

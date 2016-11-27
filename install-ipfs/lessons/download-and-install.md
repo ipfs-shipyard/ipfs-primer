@@ -1,8 +1,12 @@
 # Lesson: Download and Install IPFS
 
-## Goals (Learning Objectives)
+## Goals
 
-After doing this Lesson you will be able to download IPFS and install it on your operating system.
+After doing this Lesson you will be able to
+* Download IPFS and install it on your operating system
+* Display which version of IPFS you're using
+* Get a list of commands the ipfs binary supports
+
 
 ## Steps
 
@@ -24,7 +28,7 @@ The file named `ipfs` is your executable ipfs binary.
 
 ### Step 3: Install the IPFS Binary on your executable path
 
-To install the binary, all you need to do is put the `ipfs` binary file somewhere on your executable PATH. 
+To install the binary, all you need to do is put the `ipfs` binary file somewhere on your executable PATH.
 
 **Note about permissions**: Whichever approach you use to install the binary, make sure you have the necessary permissions. On Mac OSX or Linux, you probably want to use [sudo](https://www.sudo.ws/), which is already installed on most systems.
 
@@ -36,18 +40,36 @@ sudo go-ipfs/install.sh
 
 Read the output from running this. If it complains about being unable to write the file, you need to deal with permissions (see the note above about permissions)
 
-### Step 4: Test your installation
+### Step 4: Display the IPFS version
 
-To test your installation, run `ipfs help`. The output should look similar to this:
+When you're troubleshooting, it's important to know which version of ipfs you're using. To find out the current version, run
 
-```bash
-> ipfs help
+```sh
+$ ipfs version
+```
+
+### Step 5: Display the IPFS help page and list of commands
+
+If you need help remembering how to use any ipfs commands, run
+
+```sh
+$ ipfs help
+```
+
+This should display information beginning with
+
+```sh
 USAGE:
 
     ipfs - Global p2p merkle-dag filesystem.
 ...
 ```
 
+For a complete list of commands that the ipfs executable supports, run
+```sh
+$ ipfs commands
+```
+
 ## Next Steps
 
-Next, [Initialize your IPFS Node](../initialize-node.md)
+Next, [Initialize your IPFS Repository](initialize-repository.md)

@@ -8,7 +8,8 @@ These Lessons are tested with go-ipfs version 0.4.4. _Please update this file on
 ## Learning Objectives
 These Lessons will teach you how to
 * Install IPFS
-* Initialize an IPFS node
+* Initialize an IPFS repository
+* Locate where IPFS stores the contents of your local IPFS repository
 
 ## Key Concepts
 * IPFS nodes
@@ -19,7 +20,7 @@ TODO
 ## Lessons
 
 1. [Lesson: Download and Install IPFS](/install-ipfs/lessons/download-and-install.md)
-2. [Lesson: Initialize your IPFS Node](/install-ipfs/lessons/initialize-node.md)
+2. [Lesson: Initialize your IPFS Node](/install-ipfs/lessons/initialize-repository.md)
 
 ## Next Steps
 

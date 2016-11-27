@@ -6,6 +6,10 @@ When this is finished, this primer will be a complete replacement for the exampl
 
 The github repository for this book is at https://github.com/flyingzumwalt/decentralized-web-primer
 
+# Getting Help
+
+During these tutorials, if you have any questions feel free to ask them in [ipfs/support](https://github.com/ipfs/support) or in [the #ipfs channel on chat.freenode.net](irc://chat.freenode.net/%23ipfs). We have a large, active community who use these venues as our main places to seek support and to provide it.
+
 ## Tutorials
 
 The primer contains Tutorials about

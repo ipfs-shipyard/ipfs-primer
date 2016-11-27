@@ -1,8 +1,8 @@
 # Summary
 
 * [Tutorial: Install IPFS](/install-ipfs/README.md)
-  1. Lesson: Download and Install IPFS
-  2. Lesson: Initialize your IPFS Node
+  1. [Lesson: Download and Install IPFS](/install-ipfs/lessons/download-and-install.md)
+  2. [Lesson: Initialize your IPFS Node](/install-ipfs/lessons/initialize-node.md)
 * [Tutorial: Files on IPFS](files-on-ipfs/README.md)
   1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/lessons/1-add-and-retrieve-files.md)
   3. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/3-pin-files.md)

@@ -39,3 +39,20 @@ Each tutorial is a set of *lessons* that all use a format inspired by the [Rails
 ## Note for Contributors
 
 For a concise explanation of Learning Objectives (which we're calling _Goals_ in this book), read UC Denver's [Assessment & Instructional Alignment Tutorial](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/index.htm). Try to make your learning objectives [Specific, observable and measurable](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/good_objectives.htm) and heed their tip to use the list of verbs in the [taxonomy table worksheet](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) to help you choose observable behaviors for your course learning objectives.
+
+# Contributors
+
+This primer was created by @flyingzumwalt
+
+The contents of these tutorials were initially pulled from documentation in the [ipfs website](https://github.com/ipfs/website/tree/49b7cc4cd170138388012c70ff6087b14111c1f0/content/pages/docs) and [ipfs examples](https://github.com/ipfs/examples) git repositories.
+
+Contributors to those original docs included
+* @whyrusleeping
+* @jbenet
+* @lgierth
+* @lynnandtonic
+* @wraithgar
+* @adambrault
+* @donothesitate
+* @djdv
+plus a long list of [contributors to the examples repository](https://github.com/ipfs/examples/network/members)

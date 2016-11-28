@@ -12,7 +12,7 @@ After doing this Lesson you will be able to
 
 ### Step 1: Initialize the Repository
 
-Use the `ipfs init` command to initialize the repository. This will generate a local ipfs repository for the current user account on your machine.
+Use the `ipfs init` command to initialize the repository. This will generate a local ipfs repository for the current user account on your machine. It also generates a cryptographic keypair that allows your ipfs node to cryptographically sign the content and messages that you create.
 
 ```sh
 $ ipfs init

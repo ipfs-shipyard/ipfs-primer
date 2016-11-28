@@ -7,7 +7,6 @@
 * [Tutorial: Files on IPFS](files-on-ipfs/README.md)
   1. [Lesson: Adding Files to IPFS and Retrieving Them](/files-on-ipfs/lessons/add-and-retrieve-files.md)
   3. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
-  5. Lesson: Mount IPFS as a Local Filesystem
 * [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
   1. Lesson: Publish your node on the IPFS network
   2. Lesson: Find Peers on the Network

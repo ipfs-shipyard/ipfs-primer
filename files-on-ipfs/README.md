@@ -25,8 +25,7 @@ TODO
 ## Lessons
 
 1. [Lesson: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/lessons/add-and-retrieve-files.md)
-1. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
-1. Lesson: Mount IPFS as a Local Filesystem
+2. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
 
 ## Next Steps
 

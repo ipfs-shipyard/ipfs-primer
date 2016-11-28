@@ -13,9 +13,11 @@ During these tutorials, if you have any questions feel free to ask them in [ipfs
 ## Tutorials
 
 The primer contains Tutorials about
-* [Files on IPFS](files-on-ipfs/README.md)
-* [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
-* [Dynamic Content on IPFS](/dynamic-content/README.md)
+
+ 1. [Downloading and Installing IPFS](install-ipfs/README.md)
+ 2. [Files on IPFS](files-on-ipfs/README.md)
+ 3. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
+ 4. [Dynamic Content on IPFS](/dynamic-content/README.md)
 
 ## Concepts
 

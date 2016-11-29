@@ -28,13 +28,13 @@ added QmZtmD2qt6fJot32nabSP3CUjicnypEBz7bHVDhPQt9aAy mytextfile.txt
 added QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w
 ```
 
-In the previous lesson, when we ran `ipfs add mytextfile.txt` without the `-w` flag, ipfs only returned one hash.  This time it returned two hashes. The first hash `QmZtmD2...` is the same as before -- it's the hash of the content _inside_ the file. The second hash `QmPvaEQF...` is the hash of the directory and filename information that ipfs "wrapped" around our content.
+In the previous lesson, when we ran `ipfs add mytextfile.txt` without the `-w` flag, ipfs only returned one hash.  This time it returned two hashes. The first hash `QmZtmD2...` is the same as before — it's the hash of the content _inside_ the file. The second hash `QmPvaEQF...` is the hash of the directory and filename information that ipfs "wrapped" around our content.
 
 In the next steps, we will use ipfs commands to see what that directory and filename information looks like and how we can use it.
 
 ### Step 3: List the directory information
 
-The `-w` flag tells ipfs to include the directory and filename information it "wraps the file in a directory.".  For more info about this, run `ipfs add --help` and read the description there.
+The `-w` flag tells ipfs to include the directory and filename information along with the content — it "wraps the file in a directory".  For more info about this, run `ipfs add --help` and read the description there.
 
 To list this directory and filename information, use `ipfs ls`. We will use the `-v` flag to include header information. To learn more about this command, run `ipfs ls --help`
 
@@ -45,7 +45,7 @@ QmZtmD2qt6fJot32nabSP3CUjicnypEBz7bHVDhPQt9aAy 29   mytextfile.txt
 
 This command `ipfs ls QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w` translates to "list the files referenced by the directory whose hash is QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w".
 
-The response shows that the directory contains one file -- "mytextfile.txt" -- and the hash of that file's content is `QmZtmD2q...`
+The response shows that the directory contains one file — "mytextfile.txt" — and the hash of that file's content is `QmZtmD2q...`
 
 <div class="alert alert-info">
 Note that we had to use `ipfs ls` instead of `ipfs cat` to read this info because it's a directory. If you try to read the directory using `ipfs cat` you will get an error:

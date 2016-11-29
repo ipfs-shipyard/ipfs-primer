@@ -42,7 +42,11 @@ This kind of hash tree is formally known as a <b>Merkle DAG</b> -- this is becau
 
 In this case, the hash for our file `QmWNj1pTS...` is the hash of the **root block** in a DAG that contains 4 sub-blocks.  The output from `ipfs ls` lists those sub-blocks and their size.
 
-Sometimes sub-blocks have sub-blocks of their own. That's when a Merkle DAG starts looking like a tree.
+Sometimes sub-blocks have sub-blocks of their own. That's when a Merkle DAG starts looking like a tree. This diagram shows a Merkle DAG with three layers of sub-blocks.:
+
+![Diagram of a Merkle DAG with 3 layers of sub-blocks (looks like an upside-down tree)](https://camo.githubusercontent.com/1aba273a55fdbbf8cc9acb3b07ce0fc64e2382af/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f392f39352f486173685f547265652e7376672f33303070782d486173685f547265652e7376672e706e67)  
+
+_Do you think it looks like an upside-down tree?_
 
 ## Step 3: Explore The Hash Tree
 

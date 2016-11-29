@@ -19,9 +19,6 @@ These Lessons will teach you how to
 * IPFS Garbage Collection
 * Pinning files on an IPFS Node
 
-## Conceptual Framework
-TODO
-
 ## Lessons
 
 1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
@@ -35,3 +32,5 @@ Once you know how to add files to IPFS and retrieve them, you will be ready to s
 If you're wondering how to update those files after you've shared them, see the [Tutorial: Publishing Changes on the Permanent Web](/publishing-changes/README.md)
 
 If you want to see how to access those files from the conventional HTTP web, go to the [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
+
+If you want to know more about how IPFS stores this content intrernally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)

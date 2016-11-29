@@ -35,7 +35,8 @@ To install the binary, all you need to do is put the `ipfs` binary file somewher
 If you're on Mac OSX or Linux, you can use the provided install script by running
 
 ```bash
-sudo go-ipfs/install.sh
+cd go-ipfs
+sudo ./install.sh
 ```
 
 Read the output from running this. If it complains about being unable to write the file, you need to deal with permissions (see the note above about permissions)

@@ -12,15 +12,12 @@ These Lessons will teach you how to
 * Locate where IPFS stores the contents of your local IPFS repository
 
 ## Key Concepts
-* IPFS nodes
-
-## Conceptual Framework
-TODO
+* IPFS Repositories
 
 ## Lessons
 
 1. [Lesson: Download and Install IPFS](/install-ipfs/lessons/download-and-install.md)
-2. [Lesson: Initialize your IPFS Node](/install-ipfs/lessons/initialize-repository.md)
+2. [Lesson: Initialize your IPFS Repository](/install-ipfs/lessons/initialize-repository.md)
 
 ## Next Steps
 

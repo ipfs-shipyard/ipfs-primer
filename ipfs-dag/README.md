@@ -12,7 +12,7 @@ These Lessons introduce the following concepts:
 ## Prerequisites
 
 ## Lessons
-1. Lesson: Create a cryptographic hash
-2. [Lesson: Build a tree of data (a Merkle DAG) in IPFS using cryptographic hashes to link the pieces ](/ipfs-dag/lessons/blocks-from-scratch.md)
-3. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)
+1. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)
+2. Lesson: Create a cryptographic hash
+3. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
 4. Lesson: Explore the types of software that use hash trees to track data

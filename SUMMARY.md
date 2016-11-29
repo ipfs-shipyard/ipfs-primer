@@ -9,7 +9,7 @@
 
   1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
   2. [Lesson: Wrap Filenames and Directory Info around Content](/files-on-ipfs/lessons/wrap-directories-around-content.md)
-  3. [Lesson: Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
+  3. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
 
 3. [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
 

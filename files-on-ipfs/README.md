@@ -24,8 +24,9 @@ TODO
 
 ## Lessons
 
-1. [Lesson: Adding Files to IPFS and Retreiving Them](/files-on-ipfs/lessons/add-and-retrieve-files.md)
-2. [Lesson: Telling IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
+1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
+2. [Lesson: Wrap Filenames and Directory Info around Content in IPFS](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
+2. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
 
 ## Next Steps
 

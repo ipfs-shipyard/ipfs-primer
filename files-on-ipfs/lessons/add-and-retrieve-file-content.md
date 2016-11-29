@@ -1,4 +1,4 @@
-# Lesson: Add Content to IPFS and Retreive It
+# Lesson: Add Content to IPFS and Retrieve It
 
 ## Goals
 After doing this Lesson you will be able to    

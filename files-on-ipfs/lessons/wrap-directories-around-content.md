@@ -73,7 +73,7 @@ This command translates to "return the content that's referred to as `mytextfile
 Some things to try:
 
  1. Create a directory with multiple files. Tell ipfs to recursively add the directory and all of its files.
- 2. Add a file to ipfs, change the file, and then add it again. Compare the two hashes and use `ipfs cat` to read the different versions of the file out of ipfs.
+ 2. Create two different files with the same content. Add them both to ipfs with `ipfs add -w` and confirm that ipfs is re-using the hash of that content when it builds the directory and filename information.
 
 ## Explanation
 

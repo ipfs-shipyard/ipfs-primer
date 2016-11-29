@@ -49,12 +49,12 @@ This command `ipfs ls QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w` translates
 The response shows that the directory contains one file — "mytextfile.txt" — and the hash of that file's content is `QmZtmD2q...`
 
 <div class="alert alert-info">
-Note that we had to use `ipfs ls` instead of `ipfs cat` to read this info because it's a directory. If you try to read the directory using `ipfs cat` you will get an error:
+Note that we had to use <code>ipfs ls</code> instead of <code>ipfs cat</code> to read this info because it's a directory. If you try to read the directory using <code>ipfs cat</code> you will get an error:
 
-```sh
+<pre>
 $ ipfs cat QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w
 Error: this dag node is a directory
-```
+</pre>
 </div>
 
 

@@ -19,6 +19,8 @@ The primer contains Tutorials about
  3. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
  4. [Dynamic Content on IPFS](/dynamic-content/README.md)
 
+ For a full list of Tutorials, look at the [Table of Contents](SUMMARY.md)
+
 ## Concepts
 
 * Cryptographic Hashes and Content Addressability

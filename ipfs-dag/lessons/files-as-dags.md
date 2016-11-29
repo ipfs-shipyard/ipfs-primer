@@ -112,7 +112,7 @@ Some things to try:
 
 ## Explanation
 
-Merkle DAGs are the core concept of IPFS. Merkle DAGs are also at the core of technologies like git and bitcoin.
+Merkle DAGs are the core concept of IPFS. Merkle DAGs are also at the core of technologies like git, bitcoin and dat.
 
 Hash trees are made up of _content blocks_ that are each identified by their cryptographic hash. You can reference any of these blocks using its hash, which allows you to build trees of blocks that reference their "sub blocks" using the hashes of those sub blocks.
 

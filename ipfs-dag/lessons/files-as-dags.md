@@ -50,7 +50,7 @@ Sometimes sub-blocks have sub-blocks of their own. That's when a Merkle DAG star
 
 _Do you think it looks like an upside-down tree?_
 
-## Step 3: Explore The Hash Tree
+### Step 3: Explore The Hash Tree
 
 The `ipfs refs` and `ipfs object links` commands are other ways to get the listing of sub-blocks in the tree.
 
@@ -67,7 +67,7 @@ $ ipfs object links -v QmPHPs1P3JaWi53q5qqiNauPhiTqa3S1mbszcVPHKGNWRh
 ```
 But this doesn't return anything because there aren't sub-blocks within `QmPHPs1P...`
 
-## Step 4: Read the content back out of IPFS
+### Step 4: Read the content back out of IPFS
 
 If you use `ipfs cat` to read the content back out of ipfs, it handles re-assembling the file from the hash tree. For example, the following command will read our sample image out of ipfs and write the content into a new file called "copy-of-tree-in-cosmos.jpg".  Run the command and then open the new file to confirm that the image is still intact.
 
@@ -75,7 +75,7 @@ If you use `ipfs cat` to read the content back out of ipfs, it handles re-assemb
 $ ipfs cat QmWNj1pTSjbauDHpdyg5HQ26vYcNWnubg1JehmwAE9NnU9 > copy-of-tree-in-cosmos.jpg
 ```
 
-## Step 5: Examine the blocks individually
+### Step 5: Examine the blocks individually
 
 Use these commands to examine the blocks in the hash tree:
 * `ipfs block stat` will tell you the exact size of a given block (without its
@@ -84,7 +84,7 @@ children)
 * `ipfs ls` or `ipfs object links` will show you all children and their sizes.
 
 
-### Step 5: Read the Contents of a sub-block
+### Step 6: Read the Contents of a sub-block
 
 In some cases you want to retrieve sub-blocks from a tree. You can use `ipfs cat` to do that. You can test that with the sub-bocks from our image.
 
@@ -103,7 +103,7 @@ $4?%?&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz????????????????????????????????
 ,?y?ՠ|ѿiMgᦧk?_?WN??W????F!%T 8?W???I$uZ?????K?\?olng?H|?????@?#8?En?1??;
 ```
 
-### Step 6: Assemble the Pieces Manually
+### Step 7: Assemble the Pieces Manually
 
 `ipfs cat` allows you read the contents of each block and it also allows you to _concatenate_ many inputs. This means we can use `ipfs cat` to re-build our image by passing the hashes of all our sub-blocks into that command.
 

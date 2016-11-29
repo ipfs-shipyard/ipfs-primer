@@ -39,7 +39,8 @@ The `-w` flag tells ipfs to include the directory and filename information along
 To list this directory and filename information, use `ipfs ls`. We will use the `-v` flag to include header information. To learn more about this command, run `ipfs ls --help`
 
 ```sh
-$ ipfs ls -v QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w Hash                                           Size Name
+$ ipfs ls -v QmPvaEQFVvuiaYzkSVUp23iHTQeEUpDaJnP8U7C3PqE57w
+Hash                                           Size Name
 QmZtmD2qt6fJot32nabSP3CUjicnypEBz7bHVDhPQt9aAy 29   mytextfile.txt
 ```
 

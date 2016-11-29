@@ -40,7 +40,7 @@ This is one example of how IPFS uses hash trees, also known as **Merkle DAGs**, 
 This kind of hash tree is formally known as a <b>Merkle DAG</b> -- this is because the technical term for this  type of data structure is a <i>Directed Acyclic Graph</i>, or <i>DAG</i>, and a mathematician named Ralph <i>Merkle</i> invented them. Hence: Merkle DAG, or merkledag.
 </div>
 
-![hash tree](hash-tree.png =400x600)
+<img src="hash-tree.png" width="400" />
 
 In this case, the hash for our file `QmWNj1pTS...` is the hash of the **root block** in a DAG that contains 4 sub-blocks.  The output from `ipfs ls` lists those sub-blocks and their size.
 

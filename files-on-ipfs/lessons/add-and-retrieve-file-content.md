@@ -14,7 +14,15 @@ After doing this Lesson you will be able to
 You can add any type of content to IPFS. For this lesson we will put some text content into a `.txt` file, but you can do this same process with any content or any file.
 </div>
 
-Create a file called `mytextfile.txt` and put the text "version 1 of my text" in it. One easy way to do this on the command line is with this command:
+It would be a good idea to make a new directory for this example. Navigate to somewhere you are comfortable putting a new folder (such as `~/Desktop`), and then create a new directory and go into it. Here is an example command:
+
+```sh
+$ cd ~/Desktop
+$ mkdir ipfs-tutorial
+$ cd ipfs-tutorial
+```
+
+Now, create a file called `mytextfile.txt` and put the text "version 1 of my text" in it. One easy way to do this on the command line is with this command:
 
 ```sh
 $ echo "version 1 of my text" > mytextfile.txt

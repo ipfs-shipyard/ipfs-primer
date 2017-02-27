@@ -111,6 +111,7 @@ The contents of that directory look like this:
 ```sh
 blocks		config		datastore	version
 ```
+NB: The readme file from above is served up from the blocks folder on your local drive. Run a grep to find out the exact location.
 
 ### Step 4: Open the IPFS Configuration file
 

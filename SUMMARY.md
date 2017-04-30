@@ -12,19 +12,39 @@
 3. [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
   1. Lesson: Publish your node on the IPFS network
   2. Lesson: Find Peers on the Network
-  3. Lession: Retrieve content from a Peer
-  4. Lesson: Streaming Video over IPFS
+  3. Lesson: Retrieve content from a Peer
 
 4. [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
   1. Lesson: Use an HTTP browser to retrieve files from local IPFS node
   2. Lesson: Get your own files through the ipfs.io gateway
   3. Lesson: Map DNS to IPNS
+  4. Lesson: Streaming Video over IPFS
+
+5. [Tutorial: The Myriad ways to Access and Distribute IPFS Content](/avenues-for-access/)
+  1. [Review: Accessing content through your local IPFS node](/avenues-for-access/lessons/local-node.md)
+  2. [Using the public IPFS gateways at ipfs.io](/avenues-for-access/lessons/public-gateways.md)
+  3. [Rely on other gateways](/avenues-for-access/lessons/other-gateways.md)
+  4. [Access IPFS through Tor (experimental)](/avenues-for-access/lessons/tor.md)
+  5. [Access IPFS through a browser extension](/avenues-for-access/lessons/browser-extension.md)
+  6. [Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
+  7. [Implications of all these options](/avenues-for-access/lessons/implications.md)
 
 5. [Tutorial: Publishing Changes on the Permanent Web](publishing-changes/README.md)
   1. Lesson: Set up IPNS on your IPFS Node
   2. Lesson: Create an IPNS entry that points to your file
   3. Lesson: Modify your File and add the modified version to IPFS
   4. Lesson: Update the IPNS entry to point to the new version
+
+6. Privacy and Access Controls on the Distributed Web
+  1. Reader Privacy & Writer Privacy
+  2. Private Networks
+  3. Encrypting Content
+  4. More dynamic encryption: capabilities-based encryption
+  4. Comparing with the classic HTTP web (feudal security, etc)
+
+7. Keeping Data Alive: Durable Data on the Permanent Web
+  1. IPFS Cluster
+  2. Filecoin
 
 6. [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
   1. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)

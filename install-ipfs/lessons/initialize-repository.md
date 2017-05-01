@@ -111,6 +111,7 @@ The contents of that directory look like this:
 ```sh
 blocks		config		datastore	version
 ```
+All of the contents of your IPFS repository are stored within this directory. For example, the readme file from above is stored in here, along with the other files it links to. You can run a grep to find out the exact location.
 
 ### Step 4: Open the IPFS Configuration file
 

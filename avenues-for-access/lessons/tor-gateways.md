@@ -26,8 +26,8 @@ With the Tor browser running, enter the hash of the IPFS content you want to ret
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
 
-- 2017-04-30 snapshot: https://ipfs4uvgthshqonk.onion/ipfs/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
-- latest (IPNS): https://ipfs4uvgthshqonk.onion/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
+- 2017-04-30 snapshot: https://ipfs4uvgthshqonk.onion/ipfs/QmR1gzPYUwxEUWHbeRggZzfYy5Fxsd8Qc7hXUUnJQwxrZq/wiki/Anasayfa.html
+- latest (IPNS): https://ipfs4uvgthshqonk.onion/ipns/QmVH1VzGBydSfmNG7rmdDjAeBZ71UVeEahVbNpFQtwZK8W/wiki/Anasayfa.html
 - latest (DNS): https://ipfs4uvgthshqonk.onion/ipns/wikipedia-on-ipfs.io
 
 - (you can verify it works with [onion.link](https://onion.link))

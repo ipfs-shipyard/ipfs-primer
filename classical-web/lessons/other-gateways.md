@@ -25,16 +25,20 @@ Combine the gateway's address (ie. `https://dweb.link`) with the path to your co
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
 
-- 2017-04-30 snapshot: http://dweb.link/ipfs/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
-- latest (IPNS): http://dweb.link/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
+- 2017-04-30 snapshot: http://dweb.link/ipfs/QmR1gzPYUwxEUWHbeRggZzfYy5Fxsd8Qc7hXUUnJQwxrZq/wiki/Anasayfa.html
+- latest (IPNS): http://dweb.link/ipns/QmVH1VzGBydSfmNG7rmdDjAeBZ71UVeEahVbNpFQtwZK8W/wiki/Anasayfa.html
 - latest (DNS): http://dweb.link/ipns/wikipedia-on-ipfs.io
 
 ## Explanation
 
+*This explanation has not been written yet. If you want to help work on it, or if you want to encourage us to give it attention, open an issue at https://github.com/flyingzumwalt/decentralized-web-primer/issues*
+
 TODO
-Restricting the content that your gateway will serve
-Security concerns -- the gateway can see all the things that an HTTP server can see.
+* Restricting the content that your gateway will serve
+* Security concerns -- the gateway can see all the things that an HTTP server can see.
 
 ## Next Steps
 
-Return to the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.
+If you want to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link, go to the [Tutorial on Avenues for Access](/avenues-for-access/).
+
+Otherwise return to the tutorial on [Interacting with the Classical (HTTP) web](/classical-web/README.md)

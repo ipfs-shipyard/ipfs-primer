@@ -24,7 +24,7 @@ After doing this Lesson you will know how to physically move IPFS content across
 Use `ipfs get` command o download the content you want to move across networks. In this example, we download a complete snapshot of Wikipedia archive to disk, saving it as a folder called `WikipediaSnapshot` _(Warning: this snapshot is 15 GB. You might want to use something smaller)_:
 
 ```sh
-$ ipfs get QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S -o WikipediaSnapshot
+$ ipfs get QmR1gzPYUwxEUWHbeRggZzfYy5Fxsd8Qc7hXUUnJQwxrZq/wiki/Anasayfa.html -o WikipediaSnapshot
 ```
 
 Download the latest IPFS binaries into your drive too. You will need this in order to publish the content on the other side. Make sure to download the appropriate go-ipfs binary for the computer you will be moving the data to. *Note: there might be a newer version of ipfs available when you read this. Find out the most current version number at https://dist.ipfs.io/#go-ipfs*
@@ -61,7 +61,7 @@ Start the ipfs daemon:
 ipfs daemon
 ```
 
-The snapshot link should now work: http://localhost:8080/ipfs/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
+The snapshot link should now work: http://localhost:8080/ipfs/QmR1gzPYUwxEUWHbeRggZzfYy5Fxsd8Qc7hXUUnJQwxrZq/wiki/Anasayfa.html
 
 ## Explanation
 

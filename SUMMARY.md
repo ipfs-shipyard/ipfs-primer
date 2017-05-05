@@ -4,7 +4,7 @@
   1. [Lesson: Download and Install IPFS](/install-ipfs/lessons/download-and-install.md)
   2. [Lesson: Initialize your IPFS Repository](/install-ipfs/lessons/initialize-repository.md)
 
-2. [Tutorial: Files on IPFS](files-on-ipfs/README.md)
+2. [Tutorial: Files on IPFS](/files-on-ipfs/README.md)
   1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
   2. [Lesson: Wrap Filenames and Directory Info around Content](/files-on-ipfs/lessons/wrap-directories-around-content.md)
   3. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
@@ -12,22 +12,26 @@
 3. [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
   1. Lesson: Publish your node on the IPFS network
   2. Lesson: Find Peers on the Network
-  3. Lesson: Retrieve content from a Peer
+  3. [Lesson: Retrieve content from a Peer](/going-online/lessons/retrieve-from-peer.md)
 
 4. [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
-  1. Lesson: Use an HTTP browser to retrieve files from local IPFS node
-  2. Lesson: Get your own files through the ipfs.io gateway
-  3. Lesson: Map DNS to IPNS
-  4. Lesson: Streaming Video over IPFS
+  1. [Lesson: Use an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
+  2. [Lesson: Get content through the public ipfs.io gateway](/classical-web/lessons/public-gateways.md)
+  3. [Lesson: Access IPFS content through any IPFS gateway](/classical-web/lessons/other-gateways.md)
+  4. (TODO) Lesson: Map DNS to IPNS
+  5. (TODO) Lesson: Streaming Video over IPFS
 
-5. [Tutorial: The Myriad ways to Access and Distribute IPFS Content](/avenues-for-access/)
-  1. [Review: Accessing content through your local IPFS node](/avenues-for-access/lessons/local-node.md)
-  2. [Using the public IPFS gateways at ipfs.io](/avenues-for-access/lessons/public-gateways.md)
-  3. [Rely on other gateways](/avenues-for-access/lessons/other-gateways.md)
-  4. [Access IPFS through Tor (experimental)](/avenues-for-access/lessons/tor.md)
-  5. [Access IPFS through a browser extension](/avenues-for-access/lessons/browser-extension.md)
-  6. [Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
-  7. [Implications of all these options](/avenues-for-access/lessons/implications.md)
+5. [Tutorial: The Myriad ways to Access and Distribute IPFS Content](/avenues-for-access/README.md)
+  1. Read about [The Power of Content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
+  2. Review the lesson on [Retrieving content from a peer](/going-online/lessons/retrieve-from-peer.md)
+  3. Review these lessons from the Tutorial on Interacting with the Classical (HTTP) Web
+    - Review: [Lesson: Using an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
+    - Review: [Lesson: Using the public IPFS gateways at ipfs.io](/classical-web/lessons/public-gateways.md)
+    - Review: [Lesson: Access IPFS content through any IPFS gateway](/aclassical-web/lessons/other-gateways.md)
+  4. [Lesson: Access IPFS content through Tor gateways (experimental)](/avenues-for-access/lessons/tor-gateways.md)
+  5. [Lesson: Run IPFS over Tor transport (experimental)](/avenues-for-access/lessons/tor-transport.md)
+  6. [Lesson: Access IPFS content through a browser extension](/avenues-for-access/lessons/browser-extension.md)
+  7. [Lesson: Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
 
 5. [Tutorial: Publishing Changes on the Permanent Web](publishing-changes/README.md)
   1. Lesson: Set up IPNS on your IPFS Node

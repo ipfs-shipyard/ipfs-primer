@@ -20,7 +20,7 @@ After doing this Lesson you will be able to
 
 ### Step 1: Configure IPFS to use the Tor transport
 
-TODO
+TODO - *This explanation has not been written yet. If you want to help work on it, or if you want to encourage us to give it attention, open an issue at https://github.com/flyingzumwalt/decentralized-web-primer/issues*
 
 ### Step 2: Start the IPFS daemon
 
@@ -38,8 +38,8 @@ For more info about this step, read [Tutorial: Going Online - Joining the Distri
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
 
-- 2017-04-30 snapshot: http://localhost:8080/ipfs/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
-- latest (IPNS): http://localhost:8080/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S
+- 2017-04-30 snapshot: http://localhost:8080/ipfs/QmR1gzPYUwxEUWHbeRggZzfYy5Fxsd8Qc7hXUUnJQwxrZq/wiki/Anasayfa.html
+- latest (IPNS): http://localhost:8080/ipns/QmVH1VzGBydSfmNG7rmdDjAeBZ71UVeEahVbNpFQtwZK8W/wiki/Anasayfa.html
 - latest (DNS): http://localhost:8080/ipns/wikipedia-on-ipfs.io
 
 ## Explanation

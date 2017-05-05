@@ -20,14 +20,16 @@ These Lessons will teach you how to
 
 ## Lessons
 
-1. [The Power of Content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
-1. [Review: Accessing content through your local IPFS node](/avenues-for-access/lessons/local-node.md)
-2. [Lesson: Using the public IPFS gateways at ipfs.io](/avenues-for-access/lessons/public-gateways.md)
-3. [Lesson: Access IPFS content through any IPFS gateway](/avenues-for-access/lessons/other-gateways.md)
+1. Read about [The Power of Content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
+2. Review the lesson on [Retrieving content from a peer](/going-online/lessons/retrieve-from-peer.md)
+3. Review these lessons from the Tutorial on Interacting with the Classical (HTTP) Web
+  - Review: [Lesson: Using an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
+  - Review: [Lesson: Using the public IPFS gateways at ipfs.io](/classical-web/lessons/public-gateways.md)
+  - Review: [Lesson: Access IPFS content through any IPFS gateway](/classical-web/lessons/other-gateways.md)
 4. [Lesson: Access IPFS content through Tor gateways (experimental)](/avenues-for-access/lessons/tor-gateways.md)
-4. [Lesson: Run IPFS over Tor transport (experimental)](/avenues-for-access/lessons/tor-transport.md)
-5. [Lesson: Access IPFS content through a browser extension](/avenues-for-access/lessons/browser-extension.md)
-6. [Lesson: Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
+5. [Lesson: Run IPFS over Tor transport (experimental)](/avenues-for-access/lessons/tor-transport.md)
+6. [Lesson: Access IPFS content through a browser extension](/avenues-for-access/lessons/browser-extension.md)
+7. [Lesson: Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
 
 
 ## Next Steps

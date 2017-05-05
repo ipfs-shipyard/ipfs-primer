@@ -59,15 +59,33 @@ Decentralization also increases the integrity of data because links are content-
 
 #### Links can come back to life.
 
-TODO
+**As soon as any node has the content, everyone's links start working.** Even if someone destroys all the copies on the network, it only takes one node adding the content in order to restore availability. A cryptographic hash _permanently_ points to the content it was derived from, so IPFS links permanently point to their content. Even if the content becomes unavailable for a period, the links will work as soon as anyone starts providing the content again.
 
 #### Harder to attack, easier to recover.
 
-TODO
+**Even if the original publisher is taken down, the content can be served by anyone who has it.** As long as at least one node on the network has a copy of the content, everyone will be able to get it.  This means the responsibility for serving content can change over time without changing the way people link to the content and without any doubt that the content you're reading is exactly the content that was originally published.
 
-## Next Steps
+**The content you download is cryptographically verified** to ensure that it hasn’t been tampered with.
 
-Read the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many different ways you can use IPFS to access the same content using the same content-addressed link.
+**IPFS can work in partitioned networks** - you don’t need a stable connection to the rest of the web in order to access content through IPFS. As long as your node can connect to at least one node with the content you want, it works!
+
+**If one IPFS gateway gets blocked, you can use another one.** IPFS gateways are all capable of serving the same content, so you’re not stuck relying on one point of failure.
+
+**Lightening the load**: With IPFS, people viewing the content are also helping distribute the content (unless they opt out) and anyone can choose to pin a copy of some content on their node in order to help with access and preservation.
+
+**You can read anonymously.** As with HTTP, IPFS can work over Tor and other anonymity systems
+
+**IPFS does not rely on DNS**. If someone blocks your access to DNS or spoofs DNS in your network, it will not prevent IPFS nodes from resolving content over the peer-to-peer network. Even if you're using the DNSlink feature of IPFS, you just need to find a gateway that _does_ have access to DNS. As long as the gateway you're relying on has access to DNS it will be able to resolve your DNSlink addresses.
+
+**IPFS does not rely on the Certificate Authority System**, so bad or corrupt Certificate Authorities do not impact it.
+
+**You can move content via [sneakernet](https://en.wikipedia.org/wiki/Sneakernet)!** _This is very useful in areas with poor connectivity, due to resource limitations, security reasons, or censorship._ Even if your network is physically disconnected from the rest of the internet, you can write content from IPFS onto USB drives or other external drives, physically move them to computers connected to a new network, and re-publish the content on the new network. Even though you're on a separate network, IPFS will let nodes access the content using the same identifiers in both networks as long as at least one node on the network has that content.
+
+**IPFS nodes work hard to find each other on the network** and to reconnect with each other after connections get cut.
+
+(experimental) **You can even form private IPFS networks** to share information _only_ with computers you've chosen to connect with.
+
+## Further Reading
 
 Further light Reading:
 - [HTTP is obsolete. It's time for the distributed, permanent web](https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgFYiZ1/its-time-for-the-permanent-web.html)
@@ -77,4 +95,8 @@ Videos to Watch:
 - [this part of a talk by Juan Benet talk](https://youtu.be/2RCwZDRwk48?t=847)
 
 Academic Papers:
--
+- [The IPFS Whitepaper](https://github.com/ipfs/papers/raw/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf)
+
+## Next Steps
+
+Read the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many different ways you can use IPFS to access the same content using the same content-addressed link.

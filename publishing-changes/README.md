@@ -1,6 +1,6 @@
 # Tutorial: Making Changes on the Permanent Web
 
-These Lessons are tested with go-ipfs version 0.4.3-rc1. _Please update this file on github to reflect any other versions that have been tested._
+These Lessons are tested with go-ipfs version 0.4.8. _Please update this file on github to reflect any other versions that have been tested._
 
 ## Prerequisites
 

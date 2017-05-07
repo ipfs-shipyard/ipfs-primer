@@ -13,8 +13,8 @@ This process is the same as [using any other IPFS gateway](/classical-web/lesson
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
 
-- 2017-04-30 snapshot: http://ipfs.io/ipfs/tr-wikipedia-ipfs/wiki/Anasayfa.html
-- latest (IPNS): http://ipfs.io/ipns/tr-wikipedia-ipns/wiki/Anasayfa.html
+- 2017-04-30 snapshot: http://ipfs.io/ipfs/QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/wiki/Anasayfa.html
+- latest (IPNS): http://ipfs.io/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
 - latest (DNS): http://ipfs.io/ipns/wikipedia-on-ipfs.io
 
 ## Explanation

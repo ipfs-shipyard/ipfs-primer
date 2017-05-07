@@ -8,8 +8,8 @@ We consider this the next big step to getting IPFS natively supported in web bro
 
 Among other things, this support for IPFS in browsers will make it possible to start using links that are truly content-addressed, without any reference to HTTP locations, even when you access content through a web browser. We are advocating for this to be done using a new `dweb:` address scheme. Using the `dweb:` scheme, the links to the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/) will look like this:
 
-- 2017-04-30 snapshot: dweb:/ipfs/tr-wikipedia-ipfs/wiki/Anasayfa.html
-- latest (IPNS): dweb:/ipns/tr-wikipedia-ipns/wiki/Anasayfa.html
+- 2017-04-30 snapshot: dweb:/ipfs/QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/wiki/Anasayfa.html
+- latest (IPNS): dweb:/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
 - latest (DNS): dweb:/ipns/wikipedia-on-ipfs.io
 
 ## Next Steps

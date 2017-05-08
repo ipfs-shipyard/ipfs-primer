@@ -26,17 +26,17 @@ If the daemon is not running, your IPFS node won't be able to retrieve content f
 
 ### Step 2: Read the content on the command line
 
-You can use the command line to request content from your IPFS node. If the node does not have a copy of that content, it will attempt to find another peer node that does have the content. For example, the IPFS team have [published a snapshot of the turkish version of wikipedia](https://ipfs.io/blog/24-uncensorable-wikipedia/). The hash of that snapshot, which contains about 15GB of Turkish-language wikipedia pages, is `QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9`. We can use the command line to have your IPFS node read pages from that snapshot.
+You can use the command line to request content from your IPFS node. If the node does not have a copy of that content, it will attempt to find another peer node that does have the content. For example, the IPFS team have [published a snapshot of the turkish version of wikipedia](https://ipfs.io/blog/24-uncensorable-wikipedia/). The hash of that snapshot, which contains about 15GB of Turkish-language wikipedia pages, is `Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1`. We can use the command line to have your IPFS node read pages from that snapshot.
 
 ```
 # get the article about "Peer to Peer"
-ipfs cat QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/wiki/Peer-to-peer.html > Peer-to-peer.html
+ipfs cat Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Peer-to-peer.html > Peer-to-peer.html
 
 # get a picture of Alexis de Tocqueville
-ipfs cat QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/m/Alexis_de_Tocqueville.jpg > Alexis_de_Tocqueville.jpg
+ipfs cat Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/m/Alexis_de_Tocqueville.jpg > Alexis_de_Tocqueville.jpg
 
 # explore the articles in the snapshot
-ipfs ls QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/wiki/Anasayfa.html
+ipfs ls Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
 ```
 
 If you're not familiar with the `ipfs cat` and `ipfs ls` commands they are explained in the [Tutorial about Files on IPFS](/files-on-ipfs/README.md)

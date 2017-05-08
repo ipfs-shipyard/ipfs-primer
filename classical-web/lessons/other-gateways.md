@@ -25,7 +25,7 @@ Combine the gateway's address (ie. `https://dweb.link`) with the path to your co
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
 
-- 2017-04-30 snapshot: http://dweb.link/ipfs/QmezTdYeKyjPFoREStJQQbvATUP8yRJdHMMZx2rZ86p9g9/wiki/Anasayfa.html
+- 2017-04-30 snapshot: http://dweb.link/ipfs/Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
 - latest (IPNS): http://dweb.link/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
 - latest (DNS): http://dweb.link/ipns/wikipedia-on-ipfs.io
 

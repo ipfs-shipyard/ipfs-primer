@@ -47,6 +47,8 @@ Each tutorial is a set of *lessons* that all use a format inspired by the [Rails
 
 For a concise explanation of Learning Objectives (which we're calling _Goals_ in this book), read UC Denver's [Assessment & Instructional Alignment Tutorial](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/index.htm). Try to make your learning objectives [Specific, observable and measurable](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/module3/good_objectives.htm) and heed their tip to use the list of verbs in the [taxonomy table worksheet](http://www.ucdenver.edu/faculty_staff/faculty/center-for-faculty-development/Documents/tutorials/Assessment/documents/examples_verbs_cognitive_process_level.pdf) to help you choose observable behaviors for your course learning objectives.
 
+To build the HTML, PDF, epub and mobi versions of the book with one command, run `./build-book.sh`
+
 # Contributors
 
 This primer was created by @flyingzumwalt

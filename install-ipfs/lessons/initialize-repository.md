@@ -53,6 +53,12 @@ to get started, enter:
 
 This `ipfs cat` command tells ipfs to read the content matching the path you provided.  If the content isn't available locally, ipfs will attempt to find it on the peer-to-peer network.
 
+In order to run the following command, the ipfs daemon must be running.  In order to run the ipfs daemon, type `ipfs daemon &`.  This will start the ipfs daemon and place it into the background of your current console.
+
+```sh
+$ ipfs daemon &
+```
+
 Run the `ipfs cat` command with the path you got from the init message:
 
 ```sh

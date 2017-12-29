@@ -36,4 +36,4 @@ These Lessons will teach you how to
 
 If you're wondering how to update content after you've shared it, see the [Tutorial: Publishing Changes on the Permanent Web](/publishing-changes/README.md)
 
-If you want to know more about how IPFS stores this content intrernally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)
+If you want to know more about how IPFS stores this content internally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)

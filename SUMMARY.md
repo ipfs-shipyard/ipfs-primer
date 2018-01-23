@@ -1,68 +1,60 @@
-# Table of Contents
-1. [Table of Contents](SUMMARY.md)
+# Summary
 
-2. [Tutorial: Install and Initialize IPFS](/install-ipfs/README.md)
-  1. [Lesson: Download and Install IPFS](/install-ipfs/lessons/download-and-install.md)
-  2. [Lesson: Initialize your IPFS Repository](/install-ipfs/lessons/initialize-repository.md)
+* [Introduction](README.md)
+* [Table of Contents](SUMMARY.md)
+* [Preface](#preface)
+* [History: The Cycle of Centralization and Decetralization](#history-the-cycle-of-centralization-and-decetralization)
+    * [Mainframes and Thin Clients (1960s to mid-1980s)](#mainframes-and-thin-clients-1960s-to-mid-1980s)
+        * [The Internet: Designed to Survive Nuclear Attacks](#the-internet-designed-to-survive-nuclear-attacks)
+    * [The Personal Computing (PC) Revolution and the World Wide Web (WWW) (1980-1999)](#the-personal-computing-pc-revolution-and-the-world-wide-web-www-1980-1999)
+    * [Innovation Retreats to the Datacenters, aka. the Cloud (1999-2020): Web 2.0, the Peer to Peer Winter, the Social Web and the Cloud](#innovation-retreats-to-the-datacenters-aka-the-cloud-1999-2020-web-20-the-peer-to-peer-winter-the-social-web-and-the-cloud)
+        * [The Peer to Peer Winter (1999-2014)](#the-peer-to-peer-winter-1999-2014)
+        * ["Web 2.0": The Servers, not the users, are the Peers](#web-20-the-servers-not-the-users-are-the-peers)
+        * [The "Social" Web: Forming the modern Attention Economy](#the-social-web-forming-the-modern-attention-economy)
+        * [Mobile Computing and the Cloud: Mainframe by Another Name (2006-present)](#mobile-computing-and-the-cloud-mainframe-by-another-name-2006-present)
+    * [Re-Decentralization of the Web (2014-present)](#re-decentralization-of-the-web-2014-present)
+        * [Early Rumbles of a return to P2P](#early-rumbles-of-a-return-to-p2p)
+        * [The Role of Bitcoin and Blockchains](#the-role-of-bitcoin-and-blockchains)
+        * [The New Generation of Peer to Peer technologies](#the-new-generation-of-peer-to-peer-technologies)
+* [Why Decentralize?](#why-decentralize)
+    * [Restoring Social Interaction and Social Institutions](#restoring-social-interaction-and-social-institutions)
+    * [Resilience: Making a Library that can't burn](#resilience-making-a-library-that-cant-burn)
+    * [Offline-First:](#offline-first)
+    * [Meeting the Demands of VR, Machine Learning and Internet of Things](#meeting-the-demands-of-vr-machine-learning-and-internet-of-things)
+    * ["Web Scale" implies Participation](#web-scale-implies-participation)
+    * [Resisting Monopolies](#resisting-monopolies)
+        * [Resisting Data Monopolies](#resisting-data-monopolies)
+        * [Resisting Monopolistic Control of Connectivity](#resisting-monopolistic-control-of-connectivity)
+    * [Security & Privacy](#security-privacy)
+    * [Protecting Civilian Infrastructure from Cyber Warfare](#protecting-civilian-infrastructure-from-cyber-warfare)
+* [Isn't the web already decentralized?](#isnt-the-web-already-decentralized)
+    * [Who gets to be a peer](#who-gets-to-be-a-peer)
+    * [Possession](#possession)
+* [How to build a Decentralized Web](#how-to-build-a-decentralized-web)
+    * [Preface: Overlay Networks](#preface-overlay-networks)
+    * ["The Wires" Physical-layer Connectivity](#the-wires-physical-layer-connectivity)
+    * ["The Receivers" Application-layer Connectivity: Networking Stack](#the-receivers-application-layer-connectivity-networking-stack)
+    * ["The Languages" - data structures and encryption](#the-languages-data-structures-and-encryption)
+        * [Content-Addressing and Immutable, Authenticatable Data Structures](#content-addressing-and-immutable-authenticatable-data-structures)
+        * [Encryption: Controlling Access to Data](#encryption-controlling-access-to-data)
+        * [Merkle DAGs](#merkle-dags)
+        * [Interoprable Data Formats](#interoprable-data-formats)
+    * ["The Signaling Network; The Rumor Mill" -- passing the data around with DHTs, Data Interchange (bitswap) & Routing](#the-signaling-network-the-rumor-mill-passing-the-data-around-with-dhts-data-interchange-bitswap-routing)
+        * [Updates (aka. Mutable Data) -- allowing data to change over Time](#updates-aka-mutable-data-allowing-data-to-change-over-time)
+        * [DHTs - providing and seeking pieces of the web-scale puzzle](#dhts-providing-and-seeking-pieces-of-the-web-scale-puzzle)
+        * [Bitswap and Routing - passing the bits around](#bitswap-and-routing-passing-the-bits-around)
+        * [(Mavens and Connectors)](#mavens-and-connectors)
+        * [Reader Privacy](#reader-privacy)
+        * [Writer Privacy](#writer-privacy)
+        * [Censorship: Allowing, Denying, and Reinforcing Information](#censorship-allowing-denying-and-reinforcing-information)
+    * [Managing the Commons: Stewardship of Data and Networks](#managing-the-commons-stewardship-of-data-and-networks)
+        * [Finding Stuff: Search Engines, trustworthiness, search indexes as datasets](#finding-stuff-search-engines-trustworthiness-search-indexes-as-datasets)
+        * [Keeping Stuff: storing a copy of the data you rely on](#keeping-stuff-storing-a-copy-of-the-data-you-rely-on)
+        * [Stewardship: Reinstating the role of Libraries and Archives](#stewardship-reinstating-the-role-of-libraries-and-archives)
+* [Who: People and Incentives](#who-people-and-incentives)
+    * [Incentives, Game Theory, Nuclear War and the Internet](#incentives-game-theory-nuclear-war-and-the-internet)
+    * [Networks Tend to Become Monopolies, and are prone to become Regulated as Utilities](#networks-tend-to-become-monopolies-and-are-prone-to-become-regulated-as-utilities)
+    * [Economic Models on the Decentralized Web (Economic Patterns in Decentralized Context)](#economic-models-on-the-decentralized-web-economic-patterns-in-decentralized-context)
+    * [Open Source](#open-source)
+    * [Cryptocurrencies and Protocol-incentivised Networks](#cryptocurrencies-and-protocol-incentivised-networks)
 
-3. [Tutorial: Files on IPFS](/files-on-ipfs/README.md)
-  1. [Lesson: Add Content to IPFS and Retrieve It](/files-on-ipfs/lessons/add-and-retrieve-file-content.md)
-  2. [Lesson: Wrap Filenames and Directory Info around Content](/files-on-ipfs/lessons/wrap-directories-around-content.md)
-  3. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
-
-4. [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
-  1. Lesson: Publish your node on the IPFS network
-  2. Lesson: Find Peers on the Network
-  3. [Lesson: Retrieve content from a Peer](/going-online/lessons/retrieve-from-peer.md)
-
-5. [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
-  1. [Lesson: Use an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
-  2. [Lesson: Get content through the public ipfs.io gateway](/classical-web/lessons/public-gateways.md)
-  3. [Lesson: Access IPFS content through any IPFS gateway](/classical-web/lessons/other-gateways.md)
-  4. (TODO) Lesson: Map DNS to IPNS
-  5. (TODO) Lesson: Streaming Video over IPFS
-
-6. [Tutorial: The Myriad ways to Access and Distribute IPFS Content](/avenues-for-access/README.md)
-  1. [The Power of Content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
-  2. [Retrieving content from a peer](/going-online/lessons/retrieve-from-peer.md)
-  3. Review these lessons from the Tutorial on Interacting with the Classical (HTTP) Web
-    - [Review: Using an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
-    - [Review: Using the public IPFS gateways at ipfs.io](/classical-web/lessons/public-gateways.md)
-    - [Review: Access IPFS content through any IPFS gateway](/aclassical-web/lessons/other-gateways.md)
-  4. [Lesson: Access IPFS content through Tor gateways (experimental)](/avenues-for-access/lessons/tor-gateways.md)
-  5. [Lesson: Run IPFS over Tor transport (experimental)](/avenues-for-access/lessons/tor-transport.md)
-  6. [Lesson: Access IPFS content through a browser extension](/avenues-for-access/lessons/browser-extension.md)
-  7. [Lesson: Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
-
-7. [Tutorial: Publishing Changes on the Permanent Web](publishing-changes/README.md)
-  1. Lesson: Set up IPNS on your IPFS Node
-  2. Lesson: Create an IPNS entry that points to your file
-  3. Lesson: Modify your File and add the modified version to IPFS
-  4. Lesson: Update the IPNS entry to point to the new version
-
-8. Privacy and Access Controls on the Distributed Web
-  1. Reader Privacy & Writer Privacy
-  2. Private Networks
-  3. Encrypting Content
-  4. More dynamic encryption: capabilities-based encryption
-  4. Comparing with the classic HTTP web (feudal security, etc)
-
-9. Keeping Data Alive: Durable Data on the Permanent Web
-  1. IPFS Cluster
-  2. Filecoin
-
-10. [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
-  1. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)
-  2. Lesson: Create a cryptographic hash
-  3. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
-  4. Lesson: Explore the types of software that use hash trees to track data
-
-11. [Tutorial: Dynamic Content on IPFS](/dynamic-content/README.md)
-  1. Disclaimer: Dynamic content on IPFS is a Work in Progress
-  2. Lesson: Add data to the DAG (locally)
-  3. Lesson: Tell peers about your Changes
-  4. Lesson: Use hashes to get someone's changes from IPFS
-  5. Lesson: Use a pub/sub strategy to pass around messages about changes
-  6. Lesson: Resolve conflicts with a merge strategy (CRDTs)
-
-12. Distributed Computation

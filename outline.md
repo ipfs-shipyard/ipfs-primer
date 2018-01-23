@@ -46,10 +46,16 @@
 		- [Reader Privacy](#reader-privacy)
 		- [Writer Privacy](#writer-privacy)
 		- [Censorship: Allowing, Denying, and Reinforcing Information](#censorship-allowing-denying-and-reinforcing-information)
-	- ["The Pubs, the Libraries and the Archives" - ways of passing data around, accumulating data and stewardship of resources](#the-pubs-the-libraries-and-the-archives-ways-of-passing-data-around-accumulating-data-and-stewardship-of-resources)
+	- [Managing the Commons: Stewardship of Data and Networks](#managing-the-commons-stewardship-of-data-and-networks)
 		- [Finding Stuff: Search Engines, trustworthiness, search indexes as datasets](#finding-stuff-search-engines-trustworthiness-search-indexes-as-datasets)
 		- [Keeping Stuff: storing a copy of the data you rely on](#keeping-stuff-storing-a-copy-of-the-data-you-rely-on)
 		- [Stewardship: Reinstating the role of Libraries and Archives](#stewardship-reinstating-the-role-of-libraries-and-archives)
+- [Who: People and Incentives](#who-people-and-incentives)
+	- [Incentives, Game Theory, Nuclear War and the Internet](#incentives-game-theory-nuclear-war-and-the-internet)
+	- [Networks Tend to Become Monopolies, and are prone to become Regulated as Utilities](#networks-tend-to-become-monopolies-and-are-prone-to-become-regulated-as-utilities)
+	- [Economic Models on the Decentralized Web (Economic Patterns in Decentralized Context)](#economic-models-on-the-decentralized-web-economic-patterns-in-decentralized-context)
+	- [Open Source](#open-source)
+	- [Cryptocurrencies and Protocol-incentivised Networks](#cryptocurrencies-and-protocol-incentivised-networks)
 
 <!-- /TOC -->
 
@@ -371,7 +377,9 @@ ANSWER: immutable data structures are actually the ideal way to handle data that
 
 
 
-## "The Pubs, the Libraries and the Archives" - ways of passing data around, accumulating data and stewardship of resources
+## Managing the Commons: Stewardship of Data and Networks
+
+"The Pubs, the Libraries and the Archives" - ways of passing data around, accumulating data and stewardship of resources
 
 ### Finding Stuff: Search Engines, trustworthiness, search indexes as datasets
 
@@ -382,3 +390,24 @@ ANSWER: immutable data structures are actually the ideal way to handle data that
 
 ### Stewardship: Reinstating the role of Libraries and Archives
   - family libraries, company archives, church archives, public libraries, university libraries, national libraries, etc.
+
+# Who: People and Incentives
+
+## Incentives, Game Theory, Nuclear War and the Internet
+
+From the very first work on the internet, people have been thinking about game theory and incentives. While working on the initial version of ARPAnet, Rand Corp was also developing models for applying game theory to nuclear standoffs between the cold war superpowers. [NEED CITATION]
+
+What do we mean by incentives?
+
+What is game theory, what does it have to do with incentives?
+
+Why is it so important to talk about incentives when talking about networks?
+
+## Networks Tend to Become Monopolies, and are prone to become Regulated as Utilities
+Tim Wu's work -- Master Switch, Net Neutrality, etc.
+
+## Economic Models on the Decentralized Web (Economic Patterns in Decentralized Context)
+
+## Open Source
+
+## Cryptocurrencies and Protocol-incentivised Networks

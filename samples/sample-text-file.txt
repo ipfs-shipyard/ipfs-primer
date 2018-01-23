@@ -1,2 +1,0 @@
-This is some sample text.
-... and a second line.

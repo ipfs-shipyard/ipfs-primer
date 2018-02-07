@@ -8,7 +8,7 @@ The github repository for this book is at https://github.com/flyingzumwalt/decen
 
 # Getting Help
 
-During these tutorials, if you have any questions feel free to ask them in [ipfs/support](https://github.com/ipfs/support) or in [the #ipfs channel on chat.freenode.net](irc://chat.freenode.net/%23ipfs). We have a large, active community who use these venues as our main places to seek support and to provide it.
+During these tutorials, if you have any questions feel free to ask them in [the IPFS forums](https://discuss.ipfs.io) or in [the #ipfs channel on chat.freenode.net](irc://chat.freenode.net/%23ipfs). We have a large, active community who use these venues as our main places to seek support and to provide it.
 
 ## Tutorials
 

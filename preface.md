@@ -1,13 +1,19 @@
-# Preface
+# Preface: Networks + Incentives
 
-
-
-
-There's a lot of talk about rebuilding the web lately.
+Preface
 * This is a love letter.
 * You underestimate your potential
 * Heterogeneous temporal scopes, living document
 * General ideas, principles, conclusions, strategies,  specific technologies, specific versions of those technologies
+
+Introduction
+* [I love you. I want you to be happy and I want you to have the causes of happiness.]
+* Communities and Individuals should have the power to control what is stored on their machines and transmitted on their networks
+* People who rely on information should be able to possess a copy of it (collectively or individually)
+    * Parallels to open source and open access principles
+
+The biggest problem we face right now: believing that interaction with mediated data is a form of social connection
+* Decentralization doesn’t solve this - its merely a dependency for a whole category of viable solutions
 
 Online storage & dissemination as Cultural voice, Traditional Knowledge vs Captive Social Data
 * Possibly make this a separate essay specific to the Foundation?

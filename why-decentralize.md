@@ -1,6 +1,7 @@
 # Why Decentralize?
 
 - [Principles, in brief](#principles-in-brief)
+- [Possession is Nine Tenths of the Law](#possession-is-nine-tenths-of-the-law)
 - [Restoring Social Interaction and Social Institutions](#restoring-social-interaction-and-social-institutions)
 - [Resilience: Making a Library that can't burn](#resilience-making-a-library-that-cant-burn)
 - [Offline-First:](#offline-first)
@@ -13,13 +14,15 @@
 - [Protecting Civilian Infrastructure from Cyber Warfare](#protecting-civilian-infrastructure-from-cyber-warfare)
 
 ## Principles, in brief:
-- Networked communication is a collective good operation of that network should be participatory
+- Networked communication is a collective good. Operation of that network should be participatory.
 - Smartphones are supercomputers. We're treating them like thin clients
 - the internet and the web must support people communicating without access to a faraway backbone -- this was one of the core design principles that drove creation of the internet
 - If you rely on data you should be able to possess a copy of it
 - Reach assertion: If someone holds data about you, you should be able to know and should be able to claim a copy of it [this assertion is actually meaningless in a centralized internet]
 - When 2+ people have communication devices that are capable
 
+
+## Possession is Nine Tenths of the Law
 
 
 

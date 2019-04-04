@@ -1,5 +1,7 @@
 # People, Networks and Incentives
 
+“We keep talking about this as if it’s a filter bubble produced by the algorithms, but in many ways it’s a bubble created by our worst instincts, our desire for the quick and easy and the happy.” - Danah Boyd, in interview on Ezra Klein podcast
+
 ## Incentives, Game Theory, Nuclear War and the Internet
 
 From the very first work on the internet, people have been thinking about game theory and incentives. While working on the initial version of ARPAnet, Rand Corp was also developing models for applying game theory to nuclear standoffs between the cold war superpowers. [NEED CITATION]

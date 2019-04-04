@@ -20,6 +20,7 @@
 	- [Who gets to be a peer?](isnt-the-web-already-decentralized.md#who-gets-to-be-a-peer.md)
 	- [Possession](isnt-the-web-already-decentralized.md#possession)
 5. [Why Decentralize?](why-decentralize.md)
+	- [Possession is Nine Tenths of the Law](why-decentralize.md#possession-is-nine-tenths-of-the-law)
 	- [Restoring Social Interaction and Social Institutions](why-decentralize.md#restoring-social-interaction-and-social-institutions)
 	- [Resilience: Making a Library that can't burn](why-decentralize.md#resilience-making-a-library-that-cant-burn)
 	- [Offline-First:](why-decentralize.md#offline-first)

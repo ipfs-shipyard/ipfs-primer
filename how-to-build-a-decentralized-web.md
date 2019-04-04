@@ -60,6 +60,21 @@ ANSWER: immutable data structures are actually the ideal way to handle data that
 - fall back on centralized (or semi-centralized) systems -- DNS, databases, etc.
 - real-time feeds of data
 
+
+#### AKA propagating updates (alternative way of explaining)
+-- in an immutable context, how do I update a file and tell people which version is the current version?
+-- example: IPFS livestream
+-- example: github
+-- example: patchwork pubs
+-- example: SLEEP versioning
+-- example: Holochain
+
+- DNS
+- IPNS
+
+
+- Napster naturally developing immune system
+
 ### DHTs - providing and seeking pieces of the web-scale puzzle
 
 - Use of DHT in IPFS vs DHT in bittorrent (Also see section on address schemes)

@@ -58,3 +58,4 @@
 	- [Economic Models on the Decentralized Web (Economic Patterns in Decentralized Context)](networks-and-incentives.md#economic-models-on-the-decentralized-web-economic-patterns-in-decentralized-context)
 	- [Open Source](networks-and-incentives.md#open-source)
 	- [Cryptocurrencies and Protocol-incentivised Networks](networks-and-incentives.md#cryptocurrencies-and-protocol-incentivised-networks)
+  - [Trust and Reputation](networks-and-incentives.md#trust-and-reputation.md)

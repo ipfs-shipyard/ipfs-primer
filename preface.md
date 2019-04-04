@@ -12,6 +12,8 @@ Introduction
 * People who rely on information should be able to possess a copy of it (collectively or individually)
     * Parallels to open source and open access principles
 
+> Possibly a workable similie is to say that the crypto space, is poised to do for trust systems what fertilizers and pesticides did for agriculture. We had many options for applying those technologies. In the interest of profit, companies like Monsanto drove us to a future that has poisoned the oceans and destroyed milennia of agricultural practice. Its up to us to define a better path, and that starts with better history lessons.  [... avoiding] a more dangerous (and common) pattern of ignoring the old things we don’t understand and forcibly replacing them with powerful tools which conveniently make rich investors in the global north even richer while neglecting to measure unintended consequences.
+
 The biggest problem we face right now: believing that interaction with mediated data is a form of social connection
 * Decentralization doesn’t solve this - its merely a dependency for a whole category of viable solutions
 

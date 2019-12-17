@@ -1,11 +1,11 @@
 # Tutorial: The Myriad Ways to Access and Distribute IPFS Content
-These Lessons are tested with go-ipfs version 0.4.8. _Please update this file on github to reflect any other versions that have been tested._
+These Lessons are tested with go-ipfs version 0.5.0. _Please update this file on github to reflect any other versions that have been tested._
 
 IPFS hashes are permanent, content-addressed identifiers for your content. This means that you can use many different ways to access, replicate, and/or redistribute the same content using the same link/identifier. The lessons in this tutorial explore many of the ways that you can do this. If you want to learn about why its valuable to have all of these options, read the lesson on [the power of content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
 
-All of the lessons use the same content: TODO [the entry on Content-addressable networks] within a TODO[complete snapshot of wikipedia]
-
 (based on https://en.wikipedia.org/wiki/Content_addressable_network)
+
+All of the lessons use the same content: a snapshot of the Turkish version of Wikipedia.
 
 ## Learning Objectives
 These Lessons will teach you how to

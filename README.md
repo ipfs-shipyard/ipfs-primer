@@ -4,8 +4,6 @@ This primer contains a series of Tutorials explaining IPFS, Merkle Trees and the
 
 When this is finished, this primer will be a complete replacement for the examples at https://ipfs.io/docs/examples/
 
-The github repository for this book is at https://github.com/flyingzumwalt/decentralized-web-primer
-
 # Getting Help
 
 During these tutorials, if you have any questions feel free to ask them in [the IPFS forums](https://discuss.ipfs.io) or in [the #ipfs channel on chat.freenode.net](irc://chat.freenode.net/%23ipfs). We have a large, active community who use these venues as our main places to seek support and to provide it.
@@ -16,7 +14,7 @@ The primer contains Tutorials about
 
  1. [Downloading and Installing IPFS](install-ipfs/README.md)
  2. [Files on IPFS](files-on-ipfs/README.md)
- 3. [Going Online - Joining the Distributed Web](/going-online/README.md)
+ 3. [Going Online - Joining the Distributed Web](going-online/README.md)
  4. [Interacting with the Classical (HTTP) Web](/classical-web/README.md)
  3. [The Myriad ways to Access and Distribute IPFS Content](avenues-for-access/README.md)
  3. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)

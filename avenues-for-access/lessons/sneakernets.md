@@ -72,3 +72,5 @@ Because IPFS uses content-addressing, as long as the content you added to the se
 ## Next Steps
 
 Return to the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.
+
+Next, proceed to the [Making Changes on the Permanent Web](../../publishing-changes/README.md) tutorial.

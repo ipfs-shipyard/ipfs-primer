@@ -77,4 +77,4 @@ ipfs rocks
 IPFS nodes treat the data they store like a cache, meaning that there is no guarantee that the data will continue to be stored. Pinning a CID (hash) tells an IPFS node that the data is important and mustn’t be thrown away. You should pin any content you consider important, to ensure that content is retained long-term. Since data important to someone else may not be important to you, pinning lets you have control over the disk space and data retention you need.
 
 ## Next Steps
-Next, proceed to the [Going Online](../../going-online) tutorial.
+Next, proceed to the [Going Online](../../going-online/README.md) tutorial.

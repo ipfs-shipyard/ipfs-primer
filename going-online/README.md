@@ -7,8 +7,13 @@ To do the lessons in this tutorial you must:
 * [Install and Initialize IPFS](/install-ipfs/README.md) on your local machine
 
 ## Learning Objectives
+These Lessons will teach you how to
+* Connect your local IPFS node to the IPFS network
+* Find/examine Peers on the IPFS network
+* Retrieve content from a Peer on the IPFS network
 
 ## Key Concepts
+* Connecting and interacting with the IPFS network
 
 ## Lessons
 

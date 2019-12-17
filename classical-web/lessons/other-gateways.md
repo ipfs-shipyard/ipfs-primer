@@ -13,7 +13,7 @@ After doing this Lesson you will be able to
 
 As we covered in [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md), when you run an IPFS daemon, it exposes an HTTP endpoint that acts as a gateway between HTTP and the IPFS network. This means that you can, in theory, point your web browser at any IPFS node's HTTP endpoint and use it as a gateway. In reality, the person operating that node usually needs to take extra steps to make their gateway available over HTTP (NAT traversal, etc).
 
-For these examples we will use the gateway at `https://dweb.link`
+For these examples we will use the gateway at `http://dweb.link`
 
 ### Step 2: Build the Path to your Content
 
@@ -21,7 +21,7 @@ As described in the [Lesson on Using an HTTP browser to retrieve files from loca
 
 
 ### Step 3: Request the content from the gateway
-Combine the gateway's address (ie. `https://dweb.link`) with the path to your content (ie. `/ipfs/<your-ipfs-hash>`). Use that to request the content.
+Combine the gateway's address (ie. `http://dweb.link`) with the path to your content (ie. `/ipfs/<your-ipfs-hash>`). Use that to request the content.
 
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md), use these links:
 
@@ -30,8 +30,7 @@ To view the wikipedia page we're using as an example in all of the lessons in th
 - latest (DNS): http://dweb.link/ipns/wikipedia-on-ipfs.io
 
 ## Explanation
-
-*This explanation has not been written yet. If you want to help work on it, or if you want to encourage us to give it attention, open an issue at https://github.com/flyingzumwalt/decentralized-web-primer/issues*
+With the above examples, we are using an HTTP connection over the internet to someone (`http://dweb.link`) providing a gateway onto the IPFS network. In this way you can access information in the IPFS network at large, and you do not need to run your own IPFS gateway.
 
 TODO
 * Restricting the content that your gateway will serve

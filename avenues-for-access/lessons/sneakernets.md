@@ -21,7 +21,7 @@ After doing this Lesson you will know how to physically move IPFS content across
 
 ### Step 1: Download the content you want to move, plus a copy of IPFS
 
-Use `ipfs get` command o download the content you want to move across networks. In this example, we download a complete snapshot of Wikipedia archive to disk, saving it as a folder called `WikipediaSnapshot` _(Warning: this snapshot is 15 GB. You might want to use something smaller)_:
+Use `ipfs get` command to download the content you want to move across networks. In this example, we download a complete snapshot of Wikipedia archive to disk, saving it as a folder called `WikipediaSnapshot` _(Warning: this snapshot is 15 GB. You might want to use something smaller)_:
 
 ```sh
 $ ipfs get Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html -o WikipediaSnapshot
@@ -71,4 +71,4 @@ Because IPFS uses content-addressing, as long as the content you added to the se
 
 ## Next Steps
 
-Return to the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.
+Return to the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.

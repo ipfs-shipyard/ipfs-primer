@@ -34,9 +34,9 @@ For more info about this step, read [Tutorial: Going Online - Joining the Distri
 
 ### Step 3: Request the content you want from your local IPFS node's gateway
 
- This step is the same as [using any other IPFS gateway](/avenues-for-access/lessons/other-gateways.md) -- only the address of the gateway is different: If you're using the hash of a specific snapshot of content, use the path `http://localhost:8080/ipfs/<your-ipfs-hash>`. If you're using an IPNS hash to get the _latest_ version of some content, use the path `http://localhost:8080/ipns/<your-ipns-hash>`
+ This step is the same as [using any other IPFS gateway](../../classical-web/lessons/other-gateways.md) -- only the address of the gateway is different: If you're using the hash of a specific snapshot of content, use the path `http://localhost:8080/ipfs/<your-ipfs-hash>`. If you're using an IPNS hash to get the _latest_ version of some content, use the path `http://localhost:8080/ipns/<your-ipns-hash>`
 
-To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/), use these links:
+To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md), use these links:
 
 - 2017-04-30 snapshot: http://localhost:8080/ipfs/Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
 - latest (IPNS): http://localhost:8080/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
@@ -50,4 +50,4 @@ When you configure an IPFS node to use the Tor transport, the node will pipe all
 
 ## Next Steps
 
-Return to the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.
+Return to the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.

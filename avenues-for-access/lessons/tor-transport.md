@@ -20,6 +20,10 @@ After doing this Lesson you will be able to
 
 ### Step 1: Configure IPFS to use the Tor transport
 
+Work-In-Progress: https://github.com/ipfs/notes/issues/37
+
+Work-In-Progress: https://github.com/OpenBazaar/go-onion-transport
+
 TODO - *This explanation has not been written yet. If you want to help work on it, or if you want to encourage us to give it attention, open an issue at https://github.com/flyingzumwalt/decentralized-web-primer/issues*
 
 ### Step 2: Start the IPFS daemon

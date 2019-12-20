@@ -11,16 +11,14 @@
   3. [Lesson: Pinning - Tell IPFS to Keep a File](/files-on-ipfs/lessons/pin-files.md)
 
 4. [Tutorial: Going Online - Joining the Distributed Web](/going-online/README.md)
-  1. Lesson: Publish your node on the IPFS network
-  2. Lesson: Find Peers on the Network
+  1. [Lesson: Connect your node to the IPFS network](/going-online/lessons/connect-your-node.md)
+  2. [Lesson: Find Peers on the Network](/going-online/lessons/find-peers.md)
   3. [Lesson: Retrieve content from a Peer](/going-online/lessons/retrieve-from-peer.md)
 
 5. [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
   1. [Lesson: Use an HTTP browser to retrieve files from local IPFS gateway](/classical-web/lessons/local-gateway.md)
   2. [Lesson: Get content through the public ipfs.io gateway](/classical-web/lessons/public-gateways.md)
   3. [Lesson: Access IPFS content through any IPFS gateway](/classical-web/lessons/other-gateways.md)
-  4. (TODO) Lesson: Map DNS to IPNS
-  5. (TODO) Lesson: Streaming Video over IPFS
 
 6. [Tutorial: The Myriad ways to Access and Distribute IPFS Content](/avenues-for-access/README.md)
   1. [The Power of Content-addressing](/avenues-for-access/lessons/power-of-content-addressing.md)
@@ -34,8 +32,8 @@
   6. [Lesson: Access IPFS content through a browser extension](/avenues-for-access/lessons/browser-extension.md)
   7. [Lesson: Sneakernets - moving the data on USB Drives and other Hardware](/avenues-for-access/lessons/sneakernets.md)
 
-7. [Tutorial: Publishing Changes on the Permanent Web](publishing-changes/README.md)
-  1. Lesson: Set up IPNS on your IPFS Node
+7. [Tutorial: Making Changes on the Permanent Web](publishing-changes/README.md)
+  1. [Lesson: Create a Simple Webpage and Add It to IPFS](publishing-changes/lessons/create-webpage.md)
   2. Lesson: Create an IPNS entry that points to your file
   3. Lesson: Modify your File and add the modified version to IPFS
   4. Lesson: Update the IPNS entry to point to the new version

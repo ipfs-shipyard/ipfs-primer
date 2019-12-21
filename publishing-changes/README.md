@@ -28,7 +28,7 @@ This is where IPNS comes in, the InterPlanetary Name System. IPNS is a simple se
 ## Lessons
 
 1. [Lesson: Create a Simple Webpage and Add It to IPFS](/publishing-changes/lessons/create-webpage.md)
-2. Set up IPNS on your node
+2. [Lesson: View Your Webpage with IPFS and Publish to IPNS](/publishing-changes/lessons/view-and-publish.md)
 3. Create an IPNS entry that points to your file
 4. Modify your File and add the modified version to IPFS
 5. Update the IPNS entry to point to the new version

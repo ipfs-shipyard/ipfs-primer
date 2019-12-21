@@ -34,7 +34,7 @@
 
 7. [Tutorial: Making Changes on the Permanent Web](publishing-changes/README.md)
   1. [Lesson: Create a Simple Webpage and Add It to IPFS](publishing-changes/lessons/create-webpage.md)
-  2. Lesson: Create an IPNS entry that points to your file
+  2. [Lesson: View Your Webpage with IPFS and Publish to IPNS](publishing-changes/lessons/view-and-publish.md)
   3. Lesson: Modify your File and add the modified version to IPFS
   4. Lesson: Update the IPNS entry to point to the new version
 

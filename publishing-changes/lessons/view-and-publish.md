@@ -1,6 +1,8 @@
-# Lesson: Create a Simple Webpage and Add It to IPFS
+# Lesson: View Your Webpage with IPFS and Publish to IPNS
 
-This lesson shows you how to create a simple webpage and add it to IPFS. Once you are able to do this you can make your webpages as beautiful or complex as you would like, and add them to IPFS using the same basic commands.
+Work-In-Progress
+
+This lesson shows you how to create a simple webpage and add it to IPFS. Once you are able to do this you can make your webpages as beautiful or complex as you would like, using the same basic commands.
 
 ## Prerequisites
 To do the steps in this lesson you must:
@@ -73,7 +75,7 @@ added QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT simple-webpage
  432.98 KiB / 432.98 KiB [=============================================] 100.00%
 ```
 
-Notice that you used the command `ipfs add` with the `-r` option to tell IPFS to recursively add the contents of the directory to your local IPFS node.
+Notice that you used the command `ipfs add -r` where the `-r` option tells IPFS to recursively add the contents of the directory to your local IPFS node.
 
 ## Explanation
 

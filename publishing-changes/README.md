@@ -29,26 +29,6 @@ This is where IPNS comes in, the InterPlanetary Name System. IPNS is a simple se
 
 1. [Lesson: Create a Simple Webpage and Add It to IPFS](/publishing-changes/lessons/create-webpage.md)
 2. [Lesson: View Your Webpage with IPFS and Publish to IPNS](/publishing-changes/lessons/view-and-publish.md)
-3. Create an IPNS entry that points to your file
-4. Modify your File and add the modified version to IPFS
-5. Update the IPNS entry to point to the new version
-Advanced:
-7. add multiple files (ie. an entire website) to IPFS
-8. Use IPNS to link to the entire website, or any file in the website
+3. [Lesson: Modify Your Webpage and Republish to IPNS](/publishing-changes/lessons/modify-republish.md)
+4. Update the IPNS entry to point to the new version
 
-## Notes
-
-From IRC
-```
-??. Use the files API.
-
-15:14:11 <•Kubuxu> you are limited to one IPNS per node
-15:14:18 <•Kubuxu> but you can have directories in IPNS
-15:14:26 <•Kubuxu> combine it with files API
-15:15:19 <•Kubuxu> ipfs files mkdir /public
-15:15:46 <•Kubuxu> ipfs files cp /ipfs/$HASH_OF_PAPER /public/my-faviourite-paper.pdf
-15:16:16 <•Kubuxu> ipfs name publish $(ipfs files stat --hash /public)
-15:16:41 ⇐ jaboja quit (~jaboja@2a00:f41:3875:fd4b:de85:deff:fe55:967a) Ping timeout: 264 seconds
-15:16:42 <•Kubuxu> you can reference your paper with: /ipns/$PEERID/my-faviourite-paper.pdf
-15:16:50 <•Kubuxu> and you can have many more files in there
-```

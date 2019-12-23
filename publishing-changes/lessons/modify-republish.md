@@ -1,6 +1,6 @@
-# Lesson: View Your Webpage with IPFS and Publish to IPNS
+# Lesson: Modify Your Webpage and Republish to IPNS
 
-This lesson shows you how to view a simple webpage which you added to IPFS, and then how to publish that webpage to IPNS. 
+This lesson shows you how to modify the simple webpage which you previously added to IPFS, and then how to republish that webpage to IPNS. 
 
 ## Goals
 
@@ -22,7 +22,11 @@ added QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT simple-webpage
 
 The IPFS hash on the last line is the hash you will use to view your webpage. Note that your own hash may be different. Use your IPFS hash and open your webpage in the browser like so:
 
-`https://ipfs.io/ipfs/your-webpage-hash`
+`https://ipfs.io/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT`
+
+or
+
+`https://ipfs.io/ipfs/your-hash`
 
 You should see the "Nice Kitty" webpage from the previous lesson.
 
@@ -30,32 +34,48 @@ You should see the "Nice Kitty" webpage from the previous lesson.
 
 Wonderful, now you have your webpage available via IPFS. But suppose you have decided to make a change to this webpage? The IPFS hash above will only ever point to this first version of your webpage. By using IPNS (the InterPlanetary Name System), you can create a hash that will not change, but you will make it point to your changing content found within IPFS. The IPNS hash will be tied to your Peer ID, and any changes in the future will also be tied to your Peer ID.
 
-Run the following command (using your webpage hash) to publish to IPNS:
+Run the following command (using your hash) to publish to IPNS:
 
 ```sh
-$ ipfs name publish your-webpage-hash
+$ ipfs name publish QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
+```
+or
+```sh
+$ ipfs name publish your-hash
 ```
 
 You should see output like the following:
 
 ```sh
-Published to QmRX....xQTp: (your peer id)
-/ipfs/QmZh....your-webpage-hash....9sjT
+Published to QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp:
+/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
 ```
 
 Note that the hash on the first line will be your Peer ID. Using IPNS, you have tied your Peer ID to the webpage that you added to IPFS earlier. You can confirm that your Peer ID is tied to that IPFS entry with the following command:
 
 
 ```sh
+$ ipfs name resolve QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp
+```
+or
+```sh
 $ ipfs name resolve your-peer-id
 ```
 You should see output like the following:
 
 ```sh
-/ipfs/your-webpage-hash
+/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
+```
+or
+```sh
+/ipfs/your-hash
 ```
 
 Now you will be able to view the webpage using an IPNS link with your Peer ID:
+
+`https://ipfs.io/ipns/QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp`
+
+or
 
 `https://ipfs.io/ipns/your-peer-id`
 

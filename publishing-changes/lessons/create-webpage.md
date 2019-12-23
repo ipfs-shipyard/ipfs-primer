@@ -57,14 +57,14 @@ Save `index.html` in the `simple-webpage` directory and close the text editor. I
 
 <img src="webpage4.png">
 
-This simple webpage only has 2 files. Now you will add the `simple-webpage` directory to your local IPFS node:
+This simple webpage only has 2 files, `index.html` and `cat.jpg`. Now you will add the `simple-webpage` directory to IPFS:
 
 ```sh
 $ cd ..
 $ ipfs add -r simple-webpage/
 ```
 
-You should see the following output:
+You should see output like the following:
 
 ```sh
 added Qmd286K6pohQcTKYqnS1YhWrCiS4gz7Xi34sdwMe9USZ7u simple-webpage/cat.jpg
@@ -73,11 +73,11 @@ added QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT simple-webpage
  432.98 KiB / 432.98 KiB [=============================================] 100.00%
 ```
 
-Notice that you used the command `ipfs add` with the `-r` option to tell IPFS to recursively add the contents of the directory to your local IPFS node.
+Notice that you used the command `ipfs add` with the `-r` option to tell IPFS to recursively add the contents of the directory.
 
 ## Explanation
 
-You can work on a webpage locally and then add it to your IPFS node. When you add your webpage directory content to IPFS, you use `ipfs add` with the `-r` option to recursively add all of the files within the directory to IPFS.
+You can work on a webpage locally and then add it to IPFS. When you add your webpage directory content to IPFS, you use `ipfs add` with the `-r` option to recursively add all of the files within the directory to IPFS.
 
 ## Next Steps
 

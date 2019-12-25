@@ -5,81 +5,109 @@ This lesson shows you how to modify the simple webpage which you previously adde
 ## Goals
 
 After doing this Lesson you will be able to
-* View the simple webpage you created earlier and publish it to IPNS
+* Modify any webpage that you have within IPFS and republish your new webpage to IPNS.
 
 ## Steps
 
-### Step 1: View your webpage using the IPFS hash
+### Step 1: Modify your existing webpage
 
-When you ran the command `ipfs add -r simple-webpage/` in the previous lesson, your output was similar to this:
+You will be working again in the `simple-webpage` directory:
+
+```sh
+$ cd ~
+$ cd simple-webpage/
+```
+
+Using the text editor, open the `index.html` file in the `simple-webpage` directory and copy/replace with the following text:
+
+```sh
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nice Kitty Update</title>
+</head>
+<body>
+  <center>
+  <h1>Nice Kitty Update</h1>
+  <h2>This is the updated version of our Nice Kitty webpage.</h2>
+  <img src="cat.jpg">
+  </center>
+</body>
+</html>
+```
+
+Save `index.html` in the `simple-webpage` directory and close the text editor.
+
+Add another level of complexity with one more HTML file in the `simple-webpage` directory. Using the text editor, copy/paste the following text:
+
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SECRET</title>
+</head>
+<body>
+This is our SECRET html file, no one will<br>
+ever know that we have hidden this here!
+</body>
+</html>
+```
+
+Save this as `secret.html` in the `simple-webpage` directory and close the text editor.
+
+### Step 2: Add your updated webpage to IPFS
+
+Run the following commands to update your webpage to IPFS:
+
+```sh
+$ cd ..
+$ ipfs add -r simple-webpage/
+```
+
+You should see output like the following:
 
 ```sh
 added Qmd286K6pohQcTKYqnS1YhWrCiS4gz7Xi34sdwMe9USZ7u simple-webpage/cat.jpg
-added QmNiBYXmgwLvT4xBiL8cX9j5H3AckiEjAnLZsoBiK6xEEr simple-webpage/index.html
-added QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT simple-webpage
- 432.98 KiB / 432.98 KiB [=============================================] 100.00%
+added QmWRijdpZxJVhbUdEmvt2xD4GdCns3EVmTLBRXrJusNmGf simple-webpage/index.html
+added QmPx2wNJK3tT5AMPuZwjNAMUkVyR1UB8UYAxx4QmLZovtx simple-webpage/secret.html
+added QmXw1gREZvLbNtpEfSCA6cP8SgwhMkbPJrkC93A97uXHqf simple-webpage
+ 433.27 KiB / 433.27 KiB [=============================================] 100.00%
 ```
+
+Because the content in the `simple-webpage` directory has been changed, the final hash for the directory is now different. You might notice that the hash for `cat.jpg` has not changed, as no changes were made to that file.
 
 The IPFS hash on the last line is the hash you will use to view your webpage. Note that your own hash may be different. Use your IPFS hash and open your webpage in the browser like so:
 
-`https://ipfs.io/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT`
+`https://ipfs.io/ipfs/your-webpage-hash`
 
-or
+You should see the "Nice Kitty Update" webpage. Also try to access the `secret.html` webpage:
 
-`https://ipfs.io/ipfs/your-hash`
+`https://ipfs.io/ipfs/your-webpage-hash/secret.html`
 
-You should see the "Nice Kitty" webpage from the previous lesson.
-
-### Step 2: Publish your webpage to IPNS
-
-Wonderful, now you have your webpage available via IPFS. But suppose you have decided to make a change to this webpage? The IPFS hash above will only ever point to this first version of your webpage. By using IPNS (the InterPlanetary Name System), you can create a hash that will not change, but you will make it point to your changing content found within IPFS. The IPNS hash will be tied to your Peer ID, and any changes in the future will also be tied to your Peer ID.
-
-Run the following command (using your hash) to publish to IPNS:
+And now you can republish your updated webpage to IPNS:
 
 ```sh
-$ ipfs name publish QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
-```
-or
-```sh
-$ ipfs name publish your-hash
-```
-
-You should see output like the following:
-
-```sh
-Published to QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp:
-/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
-```
-
-Note that the hash on the first line will be your Peer ID. Using IPNS, you have tied your Peer ID to the webpage that you added to IPFS earlier. You can confirm that your Peer ID is tied to that IPFS entry with the following command:
-
-
-```sh
-$ ipfs name resolve QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp
-```
-or
-```sh
-$ ipfs name resolve your-peer-id
+$ ipfs name publish your-webpage-hash
 ```
 You should see output like the following:
 
 ```sh
-/ipfs/QmZhCL5rkWjH4MotDxKHUDaUESEKhTxSE7Xr16zwe59sjT
-```
-or
-```sh
-/ipfs/your-hash
+Published to QmRX....xQTp: (your peer id)
+/ipfs/QmZh....your-webpage-hash....9sjT
 ```
 
-Now you will be able to view the webpage using an IPNS link with your Peer ID:
+So you can see that when you republish the updated IPFS webpage to IPNS, it will again tie your Peer ID to your updates. This is the power of being able to use IPNS to point to your updated webpage.
 
-`https://ipfs.io/ipns/QmRXTMm77QKEE5JXdPGqxW4yQqdwUKHb6Quphxg1BdxQTp`
-
-or
+View the updated webpage using the IPNS link with your Peer ID:
 
 `https://ipfs.io/ipns/your-peer-id`
 
-Note how the URL changes from `/ipfs/` to `/ipns/` once you publish to IPNS.
+and also view the `secret.html` webpage:
+
+`https://ipfs.io/ipns/your-peer-id/secret.html`
+
+### Step 3: Work-in-progress
 
 ## Explanation
 

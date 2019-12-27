@@ -15,11 +15,11 @@ The primer contains Tutorials about
  1. [Downloading and Installing IPFS](install-ipfs/README.md)
  2. [Files on IPFS](files-on-ipfs/README.md)
  3. [Going Online - Joining the Distributed Web](going-online/README.md)
- 4. [Interacting with the Classical (HTTP) Web](/classical-web/README.md)
+ 4. [Interacting with the Classical (HTTP) Web](classical-web/README.md)
  5. [The Myriad ways to Access and Distribute IPFS Content](avenues-for-access/README.md)
  6. [Making Changes on the Permanent Web](publishing-changes/README.md)
  7. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
- 8. [Dynamic Content on IPFS](/dynamic-content/README.md)
+ 8. [Dynamic Content on IPFS](dynamic-content/README.md)
 
  For a full list of Tutorials, look at the [Table of Contents](SUMMARY.md)
 

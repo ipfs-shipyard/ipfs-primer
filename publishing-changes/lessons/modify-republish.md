@@ -14,7 +14,7 @@ After doing this Lesson you will be able to
 You will be working again in the `simple-webpage` directory:
 
 ```sh
-$ cd ~
+$ cd ~ (or cd %userprofile% on Windows)
 $ cd simple-webpage/
 ```
 
@@ -107,12 +107,10 @@ and also view the `secret.html` webpage:
 
 `https://ipfs.io/ipns/your-peer-id/secret.html`
 
-### Step 3: Work-in-progress
-
 ## Explanation
 
-The IPFS hash for your webpage will always point to the exact same content, this is one of the fundamental ideas of the "Permanent Web". If you make changes to your webpage, then your new IPFS content will have a different hash. If you use IPNS to tie your webpage to your Peer ID, then you can make changes to your webpage and publish your URL using the IPNS hash.
+The IPFS hash of your webpage changes every time you make a update to the webpage. By using `ipfs name publish` you can republish your webpage using IPNS, which will use the same hash every time, tied to your Peer ID. In this way you can distribute your IPNS link with your Peer ID, and anyone accessing your webpage with this link will get the most current version when you republish.
 
 ## Next Steps
 
-Proceed to the next lesson to learn how to [Modify Your Webpage and Republish to IPNS](/publishing-changes/lessons/modify-republish.md)
+Proceed to the next lesson to learn how to [Generate and Use a New IPNS Name Keypair](/publishing-changes/lessons/generate-keypair.md)

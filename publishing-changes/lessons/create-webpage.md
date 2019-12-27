@@ -26,7 +26,7 @@ $ ipfs daemon
 Create a new webpage directory in your user's home directory.
 
 ```sh
-$ cd ~
+$ cd ~  (or cd %userprofile% on Windows)
 $ mkdir simple-webpage
 $ cd simple-webpage/
 ```

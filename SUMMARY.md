@@ -36,7 +36,7 @@
   1. [Lesson: Create a Simple Webpage and Add It to IPFS](publishing-changes/lessons/create-webpage.md)
   2. [Lesson: View Your Webpage with IPFS and Publish to IPNS](publishing-changes/lessons/view-and-publish.md)
   3. [Lesson: Modify Your Webpage and Republish to IPNS](publishing-changes/lessons/modify-republish.md)
-  4. Lesson: Update the IPNS entry to point to the new version
+  4. [Lesson: Generate and Use a New IPNS Name Keypair](publishing-changes/lessons/generate-keypair.md)
 
 8. Privacy and Access Controls on the Distributed Web
   1. Reader Privacy & Writer Privacy

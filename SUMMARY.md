@@ -38,29 +38,29 @@
   3. [Lesson: Modify Your Webpage and Republish to IPNS](publishing-changes/lessons/modify-republish.md)
   4. [Lesson: Generate and Use a New IPNS Name Keypair](publishing-changes/lessons/generate-keypair.md)
 
-8. Privacy and Access Controls on the Distributed Web
-  1. Reader Privacy & Writer Privacy
-  2. Private Networks
-  3. Encrypting Content
-  4. More dynamic encryption: capabilities-based encryption
-  4. Comparing with the classic HTTP web (feudal security, etc)
-
-9. Keeping Data Alive: Durable Data on the Permanent Web
-  1. IPFS Cluster
-  2. Filecoin
-
-10. [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
-  1. [Lesson: Turn a file into a tree of hashes](/ipfs-dag/lessons/files-as-dags.md)
-  2. Lesson: Create a cryptographic hash
-  3. [Lesson: Build a tree of data in IPFS using cryptographic hashes to link the pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
+8. [Tutorial: Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
+  1. [Lesson: Turn a File into a Tree of Hashes](/ipfs-dag/lessons/files-as-dags.md)
+  2. [Lesson: The Cryptographic Hash](/ipfs-dag/lessons/crypto-hash.md)
+  3. [Lesson: Build a Tree of Data in IPFS Using Cryptographic Hashes to Link the Pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
   4. Lesson: Explore the types of software that use hash trees to track data
 
-11. [Tutorial: Dynamic Content on IPFS](/dynamic-content/README.md)
+9. [Tutorial: Dynamic Content on IPFS](/dynamic-content/README.md)
   1. Disclaimer: Dynamic content on IPFS is a Work in Progress
   2. Lesson: Add data to the DAG (locally)
   3. Lesson: Tell peers about your Changes
   4. Lesson: Use hashes to get someone's changes from IPFS
   5. Lesson: Use a pub/sub strategy to pass around messages about changes
   6. Lesson: Resolve conflicts with a merge strategy (CRDTs)
+
+10. Privacy and Access Controls on the Distributed Web
+  1. Reader Privacy & Writer Privacy
+  2. Private Networks
+  3. Encrypting Content
+  4. More dynamic encryption: capabilities-based encryption
+  4. Comparing with the classic HTTP web (feudal security, etc)
+
+11. Keeping Data Alive: Durable Data on the Permanent Web
+  1. IPFS Cluster
+  2. Filecoin
 
 12. Distributed Computation

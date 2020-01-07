@@ -12,7 +12,7 @@ After doing this Lesson you will be able to
 
 ### Step 1: Create the file you're going to add and pin
 
-Create a file called `foo.txt` and put the text "ipfs rocks" in it. You can do this on the command line with this command:
+Create a file called `foo.txt` and put the text "ipfs rocks" in it. Here is an easy way to do this on the command line:
 
 ```sh
 $ echo "ipfs rocks" > foo.txt
@@ -33,25 +33,33 @@ QmRTV3h1jLcACW4FRfdisokkQAk4E4qDhUzGpgdrd4JAFy recursive
 QmY5heUM5qgRubMDD1og9fhCPA6QdkMp3QCwd4s7gJsyE7 indirect
 ```
 
-The first object listed above is the `foo.txt` file. Objects added through `ipfs add` are pinned recursively by default. There are three types of pins in the ipfs world: a) direct pins, which pin just a single block, and no others in relation to it; b) recursive pins, which pin a given block and all of its children; and c) indirect pins, which are the result of a given blocks parent being pinned recursively.
+The first object listed above is the `foo.txt` file. Objects added through `ipfs add` are pinned recursively by default.
+
+There are three types of pins in the ipfs world:
+
+a) direct pins, which pin just a single block, and no others in relation to it;
+
+b) recursive pins, which pin a given block and all of its children;
+
+c) indirect pins, which are the result of a given blocks parent being pinned recursively.
 
 ### Step 4: Unpin an object
 
-Let's try to unpin `foo.txt` like this:
+You can unpin `foo.txt` like this:
 
 ```sh
 $ ipfs pin rm QmRTV3h1jLcACW4FRfdisokkQAk4E4qDhUzGpgdrd4JAFy
 unpinned QmRTV3h1jLcACW4FRfdisokkQAk4E4qDhUzGpgdrd4JAFy
 ```
 
-Ok, now let's verify that it no longer exists:
+Ok, now verify that it no longer exists:
 
 ```sh
 $ ipfs cat QmRTV3h1jLcACW4FRfdisokkQAk4E4qDhUzGpgdrd4JAFy
 ipfs rocks
 ```
 
-Wait, it still appears to be there! Ok, we must run the garbage collector and then verify again:
+Wait, it still appears to be there! Ok, you must run the garbage collector and then verify again:
 
 ```sh
 $ ipfs repo gc

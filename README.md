@@ -1,4 +1,4 @@
-# The Decentralized Web Primer
+# The IPFS Primer
 
 This primer contains a series of Tutorials explaining IPFS, Merkle Trees and the Decentralized Web. It's written and maintained as a [gitbook](https://www.gitbook.com/about) so people can read it in many formats.
 

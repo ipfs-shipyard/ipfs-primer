@@ -1,8 +1,6 @@
 # Table of Contents
 1. [Table of Contents](SUMMARY.md)
-
-1.  [Preface](preface)
-2. [Definitions](definitions)
+2. [Definitions](definitions.md)
 3.  [History: The Cycle of Centralization and Decentralization](history/the-cycle-of-centralization-and-decentralization.md)
 	1. [Mainframes and Thin Clients (1960s to mid-1980s)](history/mainframes-and-thin-clients.md)
 		- [The Internet: Designed to Survive Nuclear Attacks](history/mainframes-and-thin-clients.md#the-internet-designed-to-survive-nuclear-attacks)

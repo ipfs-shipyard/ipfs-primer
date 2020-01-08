@@ -1,10 +1,5 @@
 # Preface: Networks + Incentives
 
-
-**!!!!**
-Also see the [Introduction](introduction.md)!
-**!!!!**
-
 There's a lot of talk about rebuilding the web lately.
 * This is a love letter.
 * You underestimate your potential

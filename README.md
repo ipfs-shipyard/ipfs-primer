@@ -51,3 +51,7 @@ Data structures & the Evolution of Language
         * Describing places
         * Describing events (date, time, optionally Location)
     * Citation & Review of information
+
+# Technical Instructions for Generating the Book
+
+To generate the html, pdf, mobi , and epub, run `./build-book.sh` This will put all the results into `_book`

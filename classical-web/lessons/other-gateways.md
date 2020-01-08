@@ -26,8 +26,8 @@ Combine the gateway's address (ie. `http://dweb.link`) with the path to your con
 To view the wikipedia page we're using as an example in all of the lessons in the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md), use these links:
 
 - 2017-04-30 snapshot: http://dweb.link/ipfs/Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
-- latest (IPNS): http://dweb.link/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
-- latest (DNS): http://dweb.link/ipns/wikipedia-on-ipfs.io
+- latest (IPNS): http://dweb.link/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html [correct example though this link may be stale]
+- latest (DNS): http://dweb.link/ipns/ipfs.io
 
 ## Explanation
 With the above examples, we are using an HTTP connection over the internet to someone (`http://dweb.link`) providing a gateway onto the IPFS network. In this way you can access information in the IPFS network at large, and you do not need to run your own IPFS gateway.

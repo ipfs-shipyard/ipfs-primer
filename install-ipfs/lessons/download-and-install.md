@@ -11,13 +11,13 @@ After doing this Lesson you will be able to
 ## Steps
 
 ### Step 1: Download the Prebuilt IPFS Package
-Visit the IPFS installation page at https://ipfs.io/docs/install/ and download the prebuilt ipfs binaries for your operating system.
+Visit the IPFS installation page at https://docs.ipfs.io/guides/guides/install/ and download the prebuilt ipfs binaries for your operating system.
 
 **Why does the installation page talk about "Go IPFS"?** There are multiple implementations of the IPFS protocol. The core IPFS team maintain implementations in Golang and Javascript. Those are commonly referred to as [go-ipfs](https://github.com/ipfs/go-ipfs) and [js-ipfs](https://github.com/ipfs/js-ipfs). The official binaries are built from the Go implementation.
 
 ### Step 2: Unzip the Prebuilt Package
 
-The binaries for Mac OSX and Linux are in a gzipped tar format (`.tar.gz`). The binaries for Windows are in a zip file.  Use the appropriate tool to unzip the file. There are some hints on https://ipfs.io/docs/install/ under the heading _Installing from a Prebuilt Package_
+The binaries for Mac OSX and Linux are in a gzipped tar format (`.tar.gz`). The binaries for Windows are in a zip file.  Use the appropriate tool to unzip the file. There are some hints on https://docs.ipfs.io/guides/guides/install/ under the heading _Installing from a Prebuilt Package_
 
 This will create a directory called go-ipfs.
 ```bash

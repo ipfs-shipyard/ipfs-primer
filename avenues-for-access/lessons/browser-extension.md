@@ -6,7 +6,7 @@ When the IPFS browser extension is complete, we will publish it on the app store
 
 We consider this the next big step to getting IPFS natively supported in web browsers.  You can track this work in the github repository at https://github.com/ipfs/in-web-browsers. [This comment on a github issue](https://github.com/ipfs/pm/issues/351#issuecomment-294262546) describes the state of these efforts as of April 2017.
 
-Among other things, this support for IPFS in browsers will make it possible to start using links that are truly content-addressed, without any reference to HTTP locations, even when you access content through a web browser. We are advocating for this to be done using a new `dweb:` address scheme. Using the `dweb:` scheme, the links to the wikipedia page we're using as an example in all of the lessons in the [Tutorial on Avenues for Access](/avenues-for-access/) will look like this:
+Among other things, this support for IPFS in browsers will make it possible to start using links that are truly content-addressed, without any reference to HTTP locations, even when you access content through a web browser. We are advocating for this to be done using a new `dweb:` address scheme. Using the `dweb:` scheme, the links to the wikipedia page we're using as an example in all of the lessons in the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) will look like this:
 
 - 2017-04-30 snapshot: dweb:/ipfs/Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
 - latest (IPNS): dweb:/ipns/QmQP99yW82xNKPxXLroxj1rMYMGF6Grwjj2o4svsdmGh7S/wiki/Anasayfa.html
@@ -14,4 +14,4 @@ Among other things, this support for IPFS in browsers will make it possible to s
 
 ## Next Steps
 
-Return to the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.
+Return to the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link.

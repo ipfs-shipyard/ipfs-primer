@@ -4,7 +4,9 @@ This primer contains a series of Tutorials explaining IPFS, Merkle Trees and the
 
 When this is finished, this primer should serve as a complete replacement for the examples at https://ipfs.io/docs/examples/
 
-The github repository for this book is at https://github.com/flyingzumwalt/ipfs-primer
+The github repository for this book is at https://github.com/ipfs-shipyard/ipfs-primer.
+
+_Note: Until January 2020, the repository was at https://github.com/flyingzumwalt/decentralized-web-primer. It was moved to the ipfs-shipyard and renamed to IPFS Primer for clarity and to make it easier for people to contribute.)_
 
 # Getting Help
 

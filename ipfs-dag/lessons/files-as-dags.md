@@ -10,7 +10,7 @@
 
 ### Step 1: Download the sample file and add it to IPFS
 
-For this lesson we need a file that's larger than 256kb. Download this image: [tree-in-cosmos.jpg](https://raw.githubusercontent.com/flyingzumwalt/ipfs-primer/master/samples/tree-in-cosmos.jpg) (863kb)
+For this lesson we need a file that's larger than 256kb. Download this image: [tree-in-cosmos.jpg](https://raw.githubusercontent.com/ipfs-shipyard/ipfs-primer/master/samples/tree-in-cosmos.jpg) (863kb)
 
 Save it as "tree-in-cosmos.jpg" and then add it to IPFS
 

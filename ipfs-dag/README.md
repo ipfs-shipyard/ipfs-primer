@@ -15,4 +15,3 @@ These Lessons introduce the following concepts:
 1. [Lesson: Turn a File into a Tree of Hashes](/ipfs-dag/lessons/files-as-dags.md)
 2. [Lesson: The Cryptographic Hash](/ipfs-dag/lessons/crypto-hash.md)
 3. [Lesson: Build a Tree of Data in IPFS Using Cryptographic Hashes to Link the Pieces (a Merkle DAG)](/ipfs-dag/lessons/blocks-from-scratch.md)
-4. Lesson: Explore the types of software that use hash trees to track data

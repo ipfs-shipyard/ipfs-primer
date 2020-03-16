@@ -18,7 +18,7 @@ To get a sense of how impractical it is to address content by its location, imag
 
 If I identify the book by its content, saying "Check out the book called _Why Information Grows_ by César Hidalgo. The ISBN is 0465048994.", you will be able to get any copy of the book from any source and know that you're reading the information I recommended. You might even say "Oh. I already read it." or "My roommate has it in the other room. I'll borrow it from him.", saving yourself the cost or effort of getting another copy.
 
-By contrast, if I used location-addressing to identify the book, I would have to point to a location, saying something like "Go to the news stand at Market & 15th in Philadelphia and ask for the thing 16 inches from the south end of the third shelf on the east wall" Those instructions are confusing and awkward, but that's how http links work. They identify content by its location and they rely on the 'host' at that location to provide the content to visitors. There are lots of things that could go wrong with this approach. It also puts a lot of power and responsibility on the shoulders of whoever controls the location you're pointing to - in this case the news stand.
+By contrast, if I used location-addressing to identify the book, I would have to point to a location, saying something like "Go to the news stand at Market & 15th in Philadelphia and ask for the thing 16 inches from the south end of the third shelf on the east wall" Those instructions are confusing and awkward, but that is how http links work. They identify content by its location and they rely on the 'host' at that location to provide the content to visitors. There are lots of things that could go wrong with this approach. It also puts a lot of power and responsibility on the shoulders of whoever controls the location you're pointing to - in this case the news stand.
 
 Let's consider the responsibilities of whoever controls the location we've pointed to. If the people running the news stand want my directions (aka. my "link") to remain valid, allowing people to access the book, they have to:
 
@@ -47,7 +47,7 @@ The cryptographic hash for a piece of content never changes, which means **conte
 
 ### The Implications of Content Addressing
 
-**Content-addressed links are permanent.** The link permanently points to _exactly_ that content. This has many powerful implications. From a computer science perspective, any time we create data that uses content-addressed links, we are creating a [persistent data structure](https://en.wikipedia.org/wiki/Persistent_data_structure). There is a great amount of literature on the applications for persistent data strucutres. For this lesson, we will call out just a few implications of _storing_ and _sharing_ data using a content-addressed protocol:
+**Content-addressed links are permanent.** The link permanently points to _exactly_ that content. This has many powerful implications. From a computer science perspective, any time we create data that uses content-addressed links, we are creating a [persistent data structure](https://en.wikipedia.org/wiki/Persistent_data_structure). There is a great amount of literature on the applications for persistent data structures. For this lesson, we will call out just a few implications of _storing_ and _sharing_ data using a content-addressed protocol:
 
 #### It lets us store data together.
 
@@ -99,4 +99,4 @@ Academic Papers:
 
 ## Next Steps
 
-Read the [Tutorial on Avenues for Access](/avenues-for-access/) to learn about the many different ways you can use IPFS to access the same content using the same content-addressed link.
+Read the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](/avenues-for-access/README.md) to learn about the many different ways you can use IPFS to access the same content using the same content-addressed link.

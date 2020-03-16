@@ -10,7 +10,7 @@
 
 ### Step 1: Download the sample file and add it to IPFS
 
-For this lesson we need a file that's larger than 256kb. Download this image: [tree-in-cosmos.jpg](https://raw.githubusercontent.com/flyingzumwalt/decentralized-web-primer/master/samples/tree-in-cosmos.jpg) (863kb)
+For this lesson we need a file that's larger than 256kb. Download this image: [tree-in-cosmos.jpg](https://raw.githubusercontent.com/ipfs-shipyard/ipfs-primer/master/samples/tree-in-cosmos.jpg) (863kb)
 
 Save it as "tree-in-cosmos.jpg" and then add it to IPFS
 
@@ -32,7 +32,7 @@ QmS7zrNSHEt5GpcaKrwdbnv1nckBreUxWnLaV4qivjaNr3 262158
 QmQQhY1syuqo9Sq6wLFAupHBEeqfB8jNnzYUSgZGARJrYa 76151  
 ```
 
-This returned a bunch of hashes. That's different from what happened in the [lesson on adding file content to ipfs](../files-on-ipfs/add-and-retrieve-file-content), where you only got one hash back. This is because ipfs breaks files into content _blocks_ that are each about 256kb and then uses a **hash tree** to represent how they fit together.
+This returned a bunch of hashes. That's different from what happened in the [lesson on adding file content to ipfs](../../files-on-ipfs/lessons/add-and-retrieve-file-content.md), where you only got one hash back. This is because ipfs breaks files into content _blocks_ that are each about 256kb and then uses a **hash tree** to represent how they fit together.
 
 This is one example of how IPFS uses hash trees, also known as **Merkle DAGs**, to represent information.
 
@@ -127,4 +127,5 @@ that your files are broken down into blocks, and then arranged in a tree-like st
 
 ## Next Steps
 
-Next, use IPFS to [build your own Merkle DAG from scratch](blocks-from-scratch.md)
+Next, examine [The Cryptographic Hash](/ipfs-dag/lessons/crypto-hash.md)
+

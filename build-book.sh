@@ -3,10 +3,10 @@
 echo "building html"
 gitbook build
 echo "building pdf"
-gitbook pdf ./ _book/decentralized-web-primer.pdf
+gitbook pdf ./ _book/ipfs-primer.pdf
 echo "building epub"
-gitbook epub ./ _book/decentralized-web-primer.epub
+gitbook epub ./ _book/ipfs-primer.epub
 echo "building mobi"
-gitbook mobi ./ _book/decentralized-web-primer.mobi
+gitbook mobi ./ _book/ipfs-primer.mobi
 
 echo "...done. Everything is in _book/"

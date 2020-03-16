@@ -60,7 +60,7 @@ Notice that this returned the _content_ of the file, not the text file itself.  
 
 ### Step 4: Confirm that the hash points to the content, not the file
 
-When we used `ipfs cat` to read the file's contents it returned the _content_ of the file, not the text file itself.  That's because the hash `QmZtmD2qt...` is the hash of the _content_.  We can test that by adding the text content directly to IPFS without ever putting it in a file.
+When you used `ipfs cat` to read the file's contents it returned the _content_ of the file, not the text file itself.  That's because the hash `QmZtmD2qt...` is the hash of the _content_.  You can test that by adding the text content directly to IPFS without ever putting it in a file.
 
 
 ```sh
@@ -85,7 +85,7 @@ As long as the content remains the same, you will always get the same hash. As f
 
 Now change the text content to "version 2 of my text" and add it to ipfs. You will get a different hash.
 
-As we confirmed in the previous step, you can add the new text directly to IPFS or you can modify mytextfile.txt and add it to IPFS. You will get the same hash either way.
+As you confirmed in the previous step, you can add the new text directly to IPFS or you can modify mytextfile.txt and add it to IPFS. You will get the same hash either way.
 
 ```sh
 $ echo "version 2 of my text" | ipfs add
@@ -115,7 +115,7 @@ version 1 of my text
 
 ## Explanation
 
-IPFS tracks content based on its cryptographic hash. **This hash uniquely identifies exactly that content.** As long as the content stays the same, the hash stays the same, but if the content changes at all you will get a different hash.
+IPFS tracks content based on its cryptographic hash. **This hash uniquely identifies exactly that content.** As long as the content stays the same, the hash stays the same. If the content changes at all you will get a different hash.
 
 If you have two different files that contain identical content, IPFS will track that content with one hash. The filenames are different, but the content is the same, so the hash of the content will be identical.
 

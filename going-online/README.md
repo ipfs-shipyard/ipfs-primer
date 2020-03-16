@@ -20,3 +20,4 @@ These Lessons will teach you how to
 1. [Lesson: Connect your node to the IPFS network](/going-online/lessons/connect-your-node.md)
 2. [Lesson: Find Peers on the Network](/going-online/lessons/find-peers.md)
 3. [Lesson: Retrieve content from a Peer](/going-online/lessons/retrieve-from-peer.md)
+

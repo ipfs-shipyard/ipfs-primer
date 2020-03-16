@@ -1,5 +1,5 @@
 # Tutorial: Install and Initialize IPFS
-These Lessons are tested with go-ipfs version 0.4.4. _Please update this file on github to reflect any other versions that have been tested._
+These Lessons are tested with go-ipfs version 0.5.0. _Please update this file on github to reflect any other versions that have been tested._
 
 ## Prerequisites
 

@@ -32,9 +32,6 @@ You can use the command line to request content from your IPFS node. If the node
 # get the article about "Peer to Peer"
 ipfs cat Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Peer-to-peer.html > Peer-to-peer.html
 
-# get a picture of Alexis de Tocqueville
-ipfs cat Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/m/Alexis_de_Tocqueville.jpg > Alexis_de_Tocqueville.jpg
-
 # explore the articles in the snapshot
 ipfs ls Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
 ```
@@ -49,6 +46,6 @@ This is the essential function of an IPFS node. It uses content-addressed (hash)
 
 ## Next Steps
 
-This lesson covered how to use the command line to request content from your IPFS node, but there are many other ways to interact with IPFS nodes. If you want to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link, go to the [Tutorial on Avenues for Access](/avenues-for-access/).
+This lesson covered how to use the command line to request content from your IPFS node, but there are many other ways to interact with IPFS nodes. If you want to learn about the many other ways you can use IPFS to access the same content using the same content-addressed link, go to the [Tutorial on The Myriad Ways to Access and Distribute IPFS Content](../../avenues-for-access/README.md).
 
-Otherwise return to the tutorial about [Going Online - Joining the Distributed Web](/going-online/README.md)
+Otherwise, proceed to the next lesson [Interacting with the Classical (HTTP) Web](../../classical-web/README.md)

@@ -1,6 +1,6 @@
 # The IPFS Primer
 
-This primer contains a series of Tutorials explaining IPFS, Merkle Trees and the Decentralized Web. It's written and maintained as a [gitbook](https://www.gitbook.com/about) so people can read it in many formats.
+This primer contains a series of tutorials explaining IPFS, Merkle Trees and the Decentralized Web. It's written and maintained as a [gitbook](https://www.gitbook.com/about) so people can read it in many formats.
 
 The GitHub repository for this book is at https://github.com/ipfs-shipyard/ipfs-primer.
 
@@ -10,7 +10,7 @@ During these tutorials, if you have any questions feel free to ask them in [the 
 
 ## Tutorials
 
-The primer contains Tutorials about
+The primer contains tutorials about
 
  1. [Downloading and Installing IPFS](install-ipfs/README.md)
  2. [Files on IPFS](files-on-ipfs/README.md)
@@ -21,7 +21,7 @@ The primer contains Tutorials about
  7. [Merkle Trees and the IPFS DAG](ipfs-dag/README.md)
  8. [Dynamic Content on IPFS](dynamic-content/README.md)
 
- For a full list of Tutorials, look at the [Table of Contents](SUMMARY.md)
+ For a full list of tutorials, look at the [Table of Contents](SUMMARY.md).
 
 ## Concepts
 
@@ -50,9 +50,7 @@ To build the HTML, PDF, epub and mobi versions of the book with one command, run
 
 # Contributors
 
-This primer was created by @flyingzumwalt
-
-The contents of these tutorials were initially pulled from documentation in the [ipfs website](https://github.com/ipfs/website/tree/49b7cc4cd170138388012c70ff6087b14111c1f0/content/pages/docs) and [ipfs examples](https://github.com/ipfs/examples) git repositories.
+This primer was created by @flyingzumwalt. The contents of these tutorials were initially pulled from documentation in the [ipfs website](https://github.com/ipfs/website/tree/49b7cc4cd170138388012c70ff6087b14111c1f0/content/pages/docs) and [ipfs examples](https://github.com/ipfs/examples) git repositories.
 
 Contributors to those original docs included
 * @whyrusleeping
@@ -63,4 +61,4 @@ Contributors to those original docs included
 * @adambrault
 * @donothesitate
 * @djdv
-plus a long list of [contributors to the examples repository](https://github.com/ipfs/examples/network/members)
+plus a long list of [contributors to the examples repository](https://github.com/ipfs/examples/network/members).

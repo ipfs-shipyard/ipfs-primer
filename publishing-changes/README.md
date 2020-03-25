@@ -5,7 +5,7 @@ These Lessons are tested with go-ipfs version 0.5.0. _Please update this file on
 ## Prerequisites
 
 ## Learning Objectives
-After doing this Lesson you will be able to
+These Lessons will teach you how to
 * Update Files on IPFS using IPNS (InterPlanetary Name System)
 * Explain how version histories of files appear on IPFS
 * Explain why IPFS is called the Permanent Web

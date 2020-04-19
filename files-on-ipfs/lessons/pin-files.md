@@ -41,7 +41,7 @@ a) direct pins, which pin just a single block, and no others in relation to it;
 
 b) recursive pins, which pin a given block and all of its children;
 
-c) indirect pins, which are the result of a given blocks parent being pinned recursively.
+c) indirect pins, which are the result of a given block's parent being pinned recursively.
 
 ### Step 4: Unpin an object
 

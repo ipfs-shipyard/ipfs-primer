@@ -43,6 +43,8 @@ Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
 Daemon is ready
 ```
 
+Notice that if you [added files](/files-on-ipfs/lessons/add-and-retrieve-file-content.md) before running the daemon, the blocks will be advertised after a few seconds when the reprovider runs.
+
 ### Step 2: Examine your ipfs node id info
 
 Let's look at the details of your connections made by the daemon with `ipfs id`. Open up another command line and run:

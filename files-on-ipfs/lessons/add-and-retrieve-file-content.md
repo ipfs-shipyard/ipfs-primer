@@ -44,6 +44,8 @@ added QmZtmD2qt6fJot32nabSP3CUjicnypEBz7bHVDhPQt9aAy mytextfile.txt
 
 Save the hash `QmZtmD2qt...` that ipfs returned. This is the content's cryptographic hash. If the file's content changes, the hash will change, but if the file's content remains the same, the hash will always be the same.
 
+Bear in mind that if you're not [running the daemon](/going-online/lessons/connect-your-node.md#step-1-start-the-ipfs-daemon), it will just add locally. If you start the daemon later, the blocks will be advertised after a few seconds when the reprovider runs.
+
 ### Step 3: Read the content out of IPFS
 
 Just like the regular `cat` command lets you read the contents of a file, the `ipfs cat` command lets you read the contents of a file that has been added to ipfs.

@@ -33,4 +33,4 @@ If you're wondering how to update those files after you've shared them, see the 
 
 If you want to see how to access those files from the conventional HTTP web, go to the [Tutorial: Interacting with the Classical (HTTP) Web](/classical-web/README.md)
 
-If you want to know more about how IPFS stores this content intrernally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)
+If you want to know more about how IPFS stores this content internally using Merkle DAGs, go to the [Tutorial: Merkle Trees and the IPFS DAG](/ipfs-dag/README.md)

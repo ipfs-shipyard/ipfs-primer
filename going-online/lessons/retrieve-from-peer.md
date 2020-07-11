@@ -33,7 +33,7 @@ You can use the command line to request content from your IPFS node. If the node
 ipfs cat Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Peer-to-peer.html > Peer-to-peer.html
 
 # explore the articles in the snapshot
-ipfs ls Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/Anasayfa.html
+ipfs ls -v -s Qme2sLfe9ZMdiuWsEtajWMDzx6B7VbjzpSC2VWhtB6GoB1/wiki/
 ```
 
 If you're not familiar with the `ipfs cat` and `ipfs ls` commands they are explained in the [Tutorial about Files on IPFS](/files-on-ipfs/README.md)

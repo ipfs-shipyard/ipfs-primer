@@ -50,7 +50,7 @@ To build the HTML, PDF, epub and mobi versions of the book with one command, run
 
 # Contributors
 
-This primer was created by @flyingzumwalt. The contents of these tutorials were initially pulled from documentation in the [ipfs website](https://github.com/ipfs/website/tree/49b7cc4cd170138388012c70ff6087b14111c1f0/content/pages/docs) and [ipfs examples](https://github.com/ipfs/examples) git repositories.
+This primer was created by @flyingzumwalt. The contents of these tutorials were initially pulled from documentation in the first-generation documentation homed on the IPFS website and the (now-inactive) IPFS examples git repository. (Find them in their new homes on [docs.ipfs.io](https://docs.ipfs.io), particularly the ["Usage ideas and examples"](https://docs.ipfs.io/concepts/usage-ideas-examples/) section.)
 
 Contributors to those original docs included
 * @whyrusleeping
@@ -61,4 +61,4 @@ Contributors to those original docs included
 * @adambrault
 * @donothesitate
 * @djdv
-plus a long list of [contributors to the examples repository](https://github.com/ipfs/examples/network/members).
+plus a long list of [contributors](https://github.com/ipfs/examples/network/members) to the original examples repository
